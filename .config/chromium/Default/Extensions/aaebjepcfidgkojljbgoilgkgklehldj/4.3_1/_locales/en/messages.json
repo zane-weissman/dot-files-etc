@@ -1,0 +1,398 @@
+{
+   "accessAppName": {
+      "description": "Name of Office Access application displayed if it is not installed",
+      "message": "Microsoft Office Access"
+   },
+   "cancel": {
+      "description": "Cancel label (eg. used in some buttons)",
+      "message": "Cancel"
+   },
+   "close": {
+      "description": "Close label (eg. used in some buttons)",
+      "message": "Close"
+   },
+   "create": {
+      "description": "Create label (eg. used in some buttons)",
+      "message": "Create"
+   },
+   "createOfficeFileDialogTitle": {
+      "description": "Dialog title for the Create new Office file feature",
+      "message": "New Microsoft Office file"
+   },
+   "description": {
+      "description": "Extension description displayed in extension management UI and the Chrome Web Store",
+      "message": "Make your Drive experience Awesome"
+   },
+   "dialogNotesTitle": {
+      "description": "Title of the notes section that can be defined in a dialog",
+      "message": "\u003Cu>Note\u003C/u>:"
+   },
+   "enableUfoDialogInstructions": {
+      "description": "Dialog text displayed to explain to the user how to enable the UFO extension when it is disabled",
+      "message": "\u003Cstrong>To enable it\u003C/strong>, open your \u003Ca href=\"#\" class=\"extensions-settings\">extensions management page\u003C/a> and \u003Cstrong>tick the Enable checkbox\u003C/strong> next to the UFO extension.\u003Cbr/>Once done, you will be able to open your file."
+   },
+   "enableUfoDialogIntro": {
+      "description": "Dialog text displayed to explain to the user how to enable the UFO extension when it is disabled",
+      "message": "We have detected that the \u003Cstrong>Universal File Opener (UFO)\u003C/strong> extension, necessary to open this type of file, is installed but \u003Cstrong>disabled\u003C/strong> in your Google Chrome browser."
+   },
+   "enableUfoDialogTitle": {
+      "description": "Dialog title displayed to invite the user to enable the UFO extension",
+      "message": "AODocs - Universal File Opener activation"
+   },
+   "excelAppName": {
+      "description": "Name of Office Excel application displayed if it is not installed",
+      "message": "Microsoft Office Excel"
+   },
+   "excelDialogFileNameInputPlaceholder": {
+      "description": "Dialog input placeholder for the Create Excel document feature",
+      "message": "Excel document name"
+   },
+   "extensionChanged": {
+      "description": "Message displayed on the Drive UI when the extension is updated, disabled or uninstalled",
+      "message": "The AwesomeDrive extension has been updated or uninstalled. \u003Ca href=\"#\" class=\"apply-ext-changes\">A page reload\u003C/a> is required to apply changes"
+   },
+   "gridViewError": {
+      "description": "Error message displayed on the Drive UI if Grid view is used to display Drive pages",
+      "message": "$extensionName$ - Grid view not supported, \u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"switchToListView\" data-close>please switch to List view\u003C/a>",
+      "placeholders": {
+         "extensionName": {
+            "content": "$1"
+         }
+      }
+   },
+   "installUfoDialogAgreeButton": {
+      "description": "Label of the button to install the UFO extension",
+      "message": "Yes, install it!"
+   },
+   "installUfoDialogDisagreeButton": {
+      "description": "Label of the button to not use UFO this time",
+      "message": "No, thanks :-("
+   },
+   "installUfoDialogFeatureList": {
+      "description": "Dialog text displayed to list the features provided by UFO",
+      "message": "Good news! Extend the Awesome Drive scope by installing our \u003Cstrong>Universal File Opener (UFO)\u003C/strong> extension to:\u003Cul>\u003Cli>\u003Cstrong>Open any type of file\u003C/strong> from Google Drive with your local software,\u003C/li>\u003Cli>\u003Cstrong>Save the changes\u003C/strong> you made locally on your computer directly to Google Drive\u003C/li>\u003C/ul>"
+   },
+   "installUfoDialogImprovementList": {
+      "description": "Dialog text displayed to list the improvements provided by UFO",
+      "message": "UFO also improves files edition within Google Drive by:\u003Cul>\u003Cli>\u003Cstrong>Removing the 32MB file size limitation\u003C/strong>,\u003C/li>\u003Cli>\u003Cstrong>Supporting old Microsoft Office versions\u003C/strong> (prior to Office 2013)\u003C/li>"
+   },
+   "installUfoDialogIntro": {
+      "description": "Dialog text displayed to introduce the UFO extension to the user",
+      "message": "You want to open other file types than Microsoft Office?"
+   },
+   "installUfoDialogLearnMore": {
+      "description": "Dialog link to redirect the user to the knowledge base to get more info on UFO",
+      "message": ">> Learn more"
+   },
+   "installUfoDialogNeverButton": {
+      "description": "Label of the button to exclude current account from using UFO",
+      "message": "Don't ask me again for this account"
+   },
+   "installUfoDialogPricing": {
+      "description": "Dialog text displayed to inform that UFO is free of charge for the beta but will become a paying option in the future",
+      "message": "UFO is currently available free of charge as a public beta version. At the end of the beta period, Awesome Drive users will have the option to purchase the UFO feature for a monthly fee."
+   },
+   "installUfoDialogQuestion": {
+      "description": "Dialog question displayed to ask the user if he wants to install UFO",
+      "message": "Do you want to \u003Cstrong>install the UFO extension?\u003C/strong>"
+   },
+   "installUfoDialogTitle": {
+      "description": "Dialog title displayed to invite the user to install the UFO extension",
+      "message": "AODocs - Universal File Opener installation"
+   },
+   "installUfoDialogTooltip": {
+      "description": "Tooltip displayed in the install UFO dialog when hovering the Never for this account button",
+      "message": "If you change your mind, use the \"Install UFO\" link available by clicking on the extension icon \u003Cimg class=\"ao-awd-extension-icon\" src=\"$extensionIconUrl$\"/> right to the browser address bar",
+      "placeholders": {
+         "extensionIconUrl": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "description": "Extension name displayed in install dialog, extension management UI, and the Chrome Web Store",
+      "message": "AwesomeDrive for Google Drive"
+   },
+   "newExcelMenuItem": {
+      "description": "Label of the New Excel document menu item",
+      "message": "Excel Document"
+   },
+   "newFileFailed": {
+      "description": "Message displayed on the Drive UI when file creation in Drive failed",
+      "message": "Failed to create new file in Drive"
+   },
+   "newFileInProgress": {
+      "description": "Message displayed on the Drive UI when file creation in AODocs is launched",
+      "message": "Creating new file..."
+   },
+   "newOfficeDocFailed": {
+      "description": "Message displayed on the Drive UI when a Office doc creation failed",
+      "message": "Failed to create \u003Cspan class=\"ao-capitalize\">$officeSoftware$\u003C/span> document \"$docName$\"",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         },
+         "officeSoftware": {
+            "content": "$2"
+         }
+      }
+   },
+   "newOfficeDocInProgress": {
+      "description": "Message displayed on the Drive UI when Office file creation is launched",
+      "message": "Creating \u003Cspan class=\"ao-capitalize\">$officeSoftware$\u003C/span> document \"$docName$\"...",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         },
+         "officeSoftware": {
+            "content": "$2"
+         }
+      }
+   },
+   "newOfficeDocSuccess": {
+      "description": "Message displayed on the Drive UI when an Office file is successfully created",
+      "message": "Document \"$docName$\" successfully created, it will appear in your folder soon",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         }
+      }
+   },
+   "newOfficeDocSuccessWebdav": {
+      "description": "Message displayed on the Drive UI before trying to automatically open a newly created Office file",
+      "message": "Document \"$docName$\" successfully created, it should open in Microsoft \u003Cspan class=\"ao-capitalize\">$officeSoftware$\u003C/span> soon",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         },
+         "officeSoftware": {
+            "content": "$2"
+         }
+      }
+   },
+   "newPowerpointMenuItem": {
+      "description": "Label of the New Powerpoint document menu item",
+      "message": "Powerpoint Document"
+   },
+   "newWordMenuItem": {
+      "description": "Label of the New Word document menu item",
+      "message": "Word Document"
+   },
+   "oauthFailureDetail": {
+      "description": "Chrome notification content displayed if user rejects requested permissions",
+      "message": "AwesomeDrive is not authorized, reload your Google Drive page to redisplay the authorization page."
+   },
+   "oauthFailureTitle": {
+      "description": "Chrome notification title displayed if user rejects requested permissions",
+      "message": "Permissions rejected"
+   },
+   "oauthSuccessDetail": {
+      "description": "Chrome notification content displayed if user accepts requested permissions",
+      "message": "AwesomeDrive is now authorized to be displayed in your Google Drive pages."
+   },
+   "oauthSuccessTitle": {
+      "description": "Chrome notification title displayed if user accepts requested permissions",
+      "message": "AwesomeDrive successfully authorized"
+   },
+   "ok": {
+      "description": "OK label (eg. used in some buttons)",
+      "message": "OK"
+   },
+   "openFileTooltip": {
+      "description": "Tooltip value for the open file button",
+      "message": "Open file"
+   },
+   "or": {
+      "description": "Common 'or' conjunction",
+      "message": "or"
+   },
+   "pageActionTitle": {
+      "description": "The page-action popup title displayed when the page-action icon is hovered in the address bar",
+      "message": "AwesomeDrive"
+   },
+   "popupCloseSettings": {
+      "description": "Label of the close icon displayed in the top right corner of the page-action popup",
+      "message": "Close"
+   },
+   "popupDisabledFeature": {
+      "description": "Title message displayed when hovering a disabled feature in the page action popup",
+      "message": "This feature is disabled in your settings"
+   },
+   "popupErrDOM": {
+      "description": "Error message displayed in the page-action popup if a DOM check failed",
+      "message": "Drive page structure seems invalid. This feature will be unavailable."
+   },
+   "popupErrExtensionConflict": {
+      "description": "Error message displayed in the page-action popup if an incompatible extension is active",
+      "message": "\u003Cstrong>This extension is disabled\u003C/strong> because it has detected another AODocs extension. If you want to use it, disable the AODocs extension \u003Cstrong>$extensionName$\u003C/strong> first.",
+      "placeholders": {
+         "extensionName": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupErrGridView": {
+      "description": "Error message displayed in the page-action popup if Grid view is used to display Drive pages",
+      "message": "Grid view not supported, \u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"switchToListView\" data-close>please switch to List view\u003C/a>"
+   },
+   "popupErrNoUser": {
+      "description": "Error message displayed in the page-action popup if current user retrieval failed",
+      "message": "Failed to identify current user.\u003Cbr/>Please try the following:\u003Cul>\u003Cli>Reload your page\u003C/li>\u003Cli>\u003Ca href=\"https://plus.google.com/communities/115205398759066781480\" target=\"_blank\">Get help from the community\u003C/a>\u003C/li>\u003C/ul>"
+   },
+   "popupErrNotAuthorize": {
+      "description": "Error message displayed in the page-action popup if OAuth token is missing",
+      "message": "Missing required permissions for AwesomeDrive initialization.\u003Cbr/>\u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"reload\">Reopen permissions page\u003C/a>"
+   },
+   "popupErrUnexpected": {
+      "description": "Error message displayed in the page-action popup if init unexpectedly failed",
+      "message": "An unexpected error occurred during AwesomeDrive initialization. We apologize for the inconvenience."
+   },
+   "popupGetHelp": {
+      "description": "Link in the footer of the status page to the google plus community",
+      "message": "Get help"
+   },
+   "popupInitializing": {
+      "description": "Message displayed in the page-action popup while waiting for the user to accept authorizations",
+      "message": "Waiting for authorization...\u003Cbr/>\u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"reload\">Reopen permissions page\u003C/a>"
+   },
+   "popupInstallUfo": {
+      "description": "Link in the footer of the status page to install the UFO extension",
+      "message": "Install UFO"
+   },
+   "popupNewOfficeFile": {
+      "description": "Label of the New item feature displayed in the page-action popup",
+      "message": "Create MS Office files"
+   },
+   "popupNotInitialized": {
+      "description": "Message displayed in page-action popup before initialization starts",
+      "message": "AwesomeDrive initialization not yet started.\u003Cbr/>Please wait a moment or try to reload your Drive page."
+   },
+   "popupOpenFile": {
+      "description": "Label of the Open files feature displayed in the page-action popup",
+      "message": "Open any type of files"
+   },
+   "popupPrevious": {
+      "description": "Label of the link displayed in the footer of the page-action popup to go to previous page",
+      "message": "Back"
+   },
+   "popupReload": {
+      "description": "Label of the Reload action displayed in the page-action popup",
+      "message": "Reload"
+   },
+   "popupSaveSettingsFail": {
+      "description": "Message displayed in the settings popup / page when saving changes failed",
+      "message": "Failed to save changes"
+   },
+   "popupSettings": {
+      "description": "Label of the settings section displayed in the page-action popup",
+      "message": "Settings"
+   },
+   "popupStatus": {
+      "description": "Label of the status section displayed in the page-action popup",
+      "message": "Status"
+   },
+   "popupWarnDOM": {
+      "description": "Warning message displayed in the page-action popup if DOM check failed for a feature",
+      "message": "Drive page structure seems invalid. This feature might be unavailable."
+   },
+   "popupWelcomeTour": {
+      "description": "Label of the link displayed in the footer of the page-action popup to show the Welcome tour",
+      "message": "Welcome tour"
+   },
+   "powerpointAppName": {
+      "description": "Name of Office Powerpoint application displayed if it is not installed",
+      "message": "Microsoft Office Powerpoint"
+   },
+   "powerpointDialogFileNameInputPlaceholder": {
+      "description": "Dialog input placeholder for the Create Powerpoint document feature",
+      "message": "Powerpoint document name"
+   },
+   "settingsPageTitle": {
+      "description": "Settings page title",
+      "message": "AwesomeDrive - Settings"
+   },
+   "shortName": {
+      "description": "Extension short name (maximum of 12 characters recommended)",
+      "message": "AwesomeDrive"
+   },
+   "visioAppName": {
+      "description": "Name of Office Visio application displayed if it is not installed",
+      "message": "Microsoft Office Visio"
+   },
+   "webDavExernalNoEditRights": {
+      "description": "Error message displayed when the user try to open an external file with Webdav without edit permission",
+      "message": "You are not authorized to edit this file, opening in read only mode..."
+   },
+   "webDavExternalFailedQuota": {
+      "description": "Error message displayed when the user have reached the daily quota for Webdav use for external file",
+      "message": "Failed to open, you have reached the daily quota for editing non AODocs MS Office files"
+   },
+   "webDavExternalSizeWarning": {
+      "description": "Warning message displayed when the user opens a big external file with Webdav",
+      "message": "Large file edition. If too much content is added you won't be able to save it (max size: 32MB)"
+   },
+   "webDavFailed": {
+      "description": "Error message displayed on the Drive UI when Open in Office failed when retriving WebDav url",
+      "message": "Failed to open. Unable to retrieve the Office file url"
+   },
+   "webDavFailedTooLarge": {
+      "description": "Error message displayed on the Drive UI when an Office file exceeded the max size for the WebDav feature",
+      "message": "Failed to open, the file is too large (> 32MB). Please perform a regular download / upload to edit the file"
+   },
+   "webDavFailedUnauthorized": {
+      "description": "Error message displayed on the Drive UI when the user try to retrieve the Webdav document url without edit permission",
+      "message": "You are not authorized to edit this file"
+   },
+   "webDavUnsupportedOS": {
+      "description": "Error message displayed during initialize if user OS is not supported for outd",
+      "message": "Your Operating System is not supported. \u003Ca href=\"http://bit.ly/1EU55Bk\" target=\"_blank\">See the supported OS.\u003C/a>"
+   },
+   "webdavMalformedName": {
+      "description": "Error message displayed on the Drive UI when an Office file name is malformed (no extension, suffix after extension...)",
+      "message": "Failed to open, the file name is not valid. Check that it ends with a valid MS Office extension"
+   },
+   "webdavOpened": {
+      "description": "Message displayed when a document is opened with Webdav feature",
+      "message": "Your file should be opening. If not, please verify you have a \u003Ca href=\"http://bit.ly/1EU55Bk\" target=\"_blank\">supported version of Microsoft Office\u003C/a> installed"
+   },
+   "welcomeCreateOfficeText": {
+      "description": "Text of the 'createOffice' step of the 'welcome' feature tour",
+      "message": "Open the Google Drive “NEW” menu and create a new Word, Excel or PowerPoint document in one click."
+   },
+   "welcomeCreateOfficeTitle": {
+      "description": "Title of the 'createOffice' step of the 'welcome' feature tour",
+      "message": "Create Microsoft Office files"
+   },
+   "welcomeOpenFileText": {
+      "description": "Text of the 'openFile' step of the 'welcome' feature tour",
+      "message": "No need to manually download and upload your Drive files anymore. Just click, edit and save!"
+   },
+   "welcomeOpenFileTitle": {
+      "description": "Title of the 'openFile' step of the 'welcome' feature tour",
+      "message": "Open any type of file"
+   },
+   "welcomePageActionText": {
+      "description": "Text of the 'pageAction' step of the 'welcome' feature tour",
+      "message": "Click on the AwesomeDrive icon to get status information and useful links."
+   },
+   "welcomePageActionTitle": {
+      "description": "Title of the 'pageAction' step of the 'welcome' feature tour",
+      "message": "AwesomeDrive extension in your browser"
+   },
+   "welcomeWelcomeText": {
+      "description": "Text of the 'welcome' step of the 'welcome' feature tour",
+      "message": "Check out the next pages to discover the features added by AwesomeDrive to your Google Drive!"
+   },
+   "welcomeWelcomeTitle": {
+      "description": "Title of the 'welcome' step of the 'welcome' feature tour",
+      "message": "Welcome to AwesomeDrive!"
+   },
+   "wordAppName": {
+      "description": "Name of Office Word application displayed if it is not installed",
+      "message": "Microsoft Office Word"
+   },
+   "wordDialogFileNameInputPlaceholder": {
+      "description": "Dialog input placeholder for the Create Word document feature",
+      "message": "Word document name"
+   }
+}

@@ -1,0 +1,19 @@
+<UserScriptConfig>
+	<Script author="KarmaDecay.com" basedir="KarmaDecay" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Reverse image search of Reddit.com" enabled="true" filename="karma-decay.user.js" installTime="1439971156000" modified="1475300531000" name="KarmaDecay" namespace="http://karmadecay.com/" noframes="false" runAt="document-end" updateMetaStatus="fail" uuid="5c29eaa4-75b1-4799-bb66-db2ca4cc5557" version="1.3" installurl="http://karmadecay.com/js/karma-decay.user.js" updateurl="http://karmadecay.com/js/karma-decay.user.js">
+		<Grant>none</Grant>
+		<Include>http://www.reddit.com/*</Include>
+		<Include>https://www.reddit.com/*</Include>
+	</Script>
+	<Script basedir="Fantasy_LCS_Average_Points_Per_Game_(PPG)" checkRemoteUpdates="1" dependhash="d5c67da6a5d3de9fdd6089c5b2efb9e0a1f6b0ec" description="" enabled="false" filename="lcs-avg-ppg.user.js" installTime="1439885500000" modified="1475300531000" name="Fantasy LCS Average Points Per Game (PPG)" namespace="http://enki1337.net/" noframes="false" runAt="document-end" updateMetaStatus="ok" uuid="57e7d6ee-fb4d-4e1a-9bbb-08fc298e8892" version="0.98" installurl="https://gist.githubusercontent.com/enki1337/b1305cdc07dac1557b26/raw/b1f1d886f96ab3deb7de1f570c420ae10da33fa4/lcs-avg-ppg.user.js" updateurl="https://gist.githubusercontent.com/enki1337/b1305cdc07dac1557b26/raw/b1f1d886f96ab3deb7de1f570c420ae10da33fa4/lcs-avg-ppg.user.js">
+		<Grant>GM_addStyle</Grant>
+		<Include>http://fantasy.*.lolesports.com/*/matchups*</Include>
+		<Require filename="jquery.min.js"/>
+		<Require filename="waitForKeyElements.js"/>
+	</Script>
+	<Script basedir="Fantasy_LCS" checkRemoteUpdates="1" dependhash="d5c67da6a5d3de9fdd6089c5b2efb9e0a1f6b0ec" description="" enabled="true" filename="lcsppg.user.js" installTime="1439885501000" modified="1475300531000" name="Fantasy LCS" namespace="http://frichter.de" noframes="false" runAt="document-end" updateMetaStatus="ok" uuid="0b52a48a-e244-4d73-8162-27be76d24ca4" version="0.2.2" installurl="https://gist.github.com/Fidge123/6488cad0a6df7741869e/raw/3a5c24f298f397266e4e6de5af14d386de5c26b2/lcsppg.user.js" updateurl="https://gist.github.com/Fidge123/6488cad0a6df7741869e/raw/3a5c24f298f397266e4e6de5af14d386de5c26b2/lcsppg.user.js">
+		<Grant>GM_addStyle</Grant>
+		<Include>http://fantasy.*.lolesports.com/*</Include>
+		<Require filename="jquery.min.js"/>
+		<Require filename="waitForKeyElements.js"/>
+	</Script>
+</UserScriptConfig>

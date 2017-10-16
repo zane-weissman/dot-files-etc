@@ -1,0 +1,572 @@
+(dp1
+S'__main___full-win-height'
+p2
+I470
+sS'FileExplorer_win-width'
+p3
+I370
+sS'FileExplorer_win-height'
+p4
+I400
+sS'modules_enabled_modules'
+p5
+(lp6
+S'Covers'
+p7
+aS'ReplayGain'
+p8
+asS'FileExplorer_win-is-maximized'
+p9
+I00
+sS'Explorer_last-explorer'
+p10
+(S'File Explorer'
+S'music'
+tp11
+sS'FileExplorer_media-folders'
+p12
+(dp13
+S'music'
+p14
+S'/home/zane/Music'
+p15
+ssS'gui.preferences_win-height'
+p16
+I440
+sS'gui.preferences_win-width'
+p17
+I495
+sS'FileExplorer_add-by-filename'
+p18
+I00
+sS'__main___win-width'
+p19
+I750
+sS'FileExplorer_show-hidden-files'
+p20
+I00
+sS'__main___paned-pos'
+p21
+I300
+sS'__main___first-time'
+p22
+I00
+sS'gui.preferences_win-is-maximized'
+p23
+I00
+sS'FileExplorer_saved-states'
+p24
+(dp25
+S'music'
+p26
+(dp27
+S'hscrollbar-pos'
+p28
+F0
+sS'tree-state'
+p29
+(lp30
+(lp31
+(S'MAIN'
+I0
+S'/home/zane/Music/MAIN'
+tp32
+a(lp33
+(lp34
+(S'2Pac'
+I0
+S'/home/zane/Music/MAIN/2Pac'
+tp35
+a(lp36
+aa(lp37
+(S'AC_DC'
+I0
+S'/home/zane/Music/MAIN/AC_DC'
+tp38
+a(lp39
+aa(lp40
+(S'Ancestral'
+I0
+S'/home/zane/Music/MAIN/Ancestral'
+tp41
+a(lp42
+aa(lp43
+(S'Archivist'
+I0
+S'/home/zane/Music/MAIN/Archivist'
+tp44
+a(lp45
+aa(lp46
+(S'Aureole'
+I0
+S'/home/zane/Music/MAIN/Aureole'
+tp47
+a(lp48
+aa(lp49
+(S'Banished Souls Ov Forbidden Desire'
+I0
+S'/home/zane/Music/MAIN/Banished Souls Ov Forbidden Desire'
+tp50
+a(lp51
+aa(lp52
+(S'Bell Witch'
+I0
+S'/home/zane/Music/MAIN/Bell Witch'
+tp53
+a(lp54
+aa(lp55
+(S'Black Monolith'
+I0
+S'/home/zane/Music/MAIN/Black Monolith'
+tp56
+a(lp57
+(lp58
+(S'Passenger'
+I0
+S'/home/zane/Music/MAIN/Black Monolith/Passenger'
+tp59
+a(lp60
+(lp61
+(S'01  Intro-Void.mp3'
+I1
+S'/home/zane/Music/MAIN/Black Monolith/Passenger/01  Intro-Void.mp3'
+tp62
+aNaa(lp63
+(S'02  Dead Hand.mp3'
+I1
+S'/home/zane/Music/MAIN/Black Monolith/Passenger/02  Dead Hand.mp3'
+tp64
+aNaa(lp65
+(S'03  Adhere.mp3'
+I1
+S'/home/zane/Music/MAIN/Black Monolith/Passenger/03  Adhere.mp3'
+tp66
+aNaa(lp67
+(S'04  Victims &amp; Hangmen.mp3'
+I1
+S'/home/zane/Music/MAIN/Black Monolith/Passenger/04  Victims & Hangmen.mp3'
+tp68
+aNaa(lp69
+(S'05  Gold Watch.mp3'
+I1
+S'/home/zane/Music/MAIN/Black Monolith/Passenger/05  Gold Watch.mp3'
+tp70
+aNaa(lp71
+(S'06  Eris.mp3'
+I1
+S'/home/zane/Music/MAIN/Black Monolith/Passenger/06  Eris.mp3'
+tp72
+aNaaaaaa(lp73
+(S'Black Sabbath'
+I0
+S'/home/zane/Music/MAIN/Black Sabbath'
+tp74
+a(lp75
+aa(lp76
+(S'Boris'
+I0
+S'/home/zane/Music/MAIN/Boris'
+tp77
+a(lp78
+aa(lp79
+(S'Burzum'
+I0
+S'/home/zane/Music/MAIN/Burzum'
+tp80
+a(lp81
+aa(lp82
+(S'clipping'
+I0
+S'/home/zane/Music/MAIN/clipping'
+tp83
+a(lp84
+aa(lp85
+(S'Dead Kennedys'
+I0
+S'/home/zane/Music/MAIN/Dead Kennedys'
+tp86
+a(lp87
+aa(lp88
+(S'Deadmau5'
+I0
+S'/home/zane/Music/MAIN/Deadmau5'
+tp89
+a(lp90
+aa(lp91
+(S'Deafheaven'
+I0
+S'/home/zane/Music/MAIN/Deafheaven'
+tp92
+a(lp93
+aa(lp94
+(S'Deafknife'
+I0
+S'/home/zane/Music/MAIN/Deafknife'
+tp95
+a(lp96
+aa(lp97
+(S'Death Grips'
+I0
+S'/home/zane/Music/MAIN/Death Grips'
+tp98
+a(lp99
+aa(lp100
+(S'Demilich'
+I0
+S'/home/zane/Music/MAIN/Demilich'
+tp101
+a(lp102
+aa(lp103
+(S'Dismember'
+I0
+S'/home/zane/Music/MAIN/Dismember'
+tp104
+a(lp105
+aa(lp106
+(S'Endlichkeit'
+I0
+S'/home/zane/Music/MAIN/Endlichkeit'
+tp107
+a(lp108
+aa(lp109
+(S'Gaul'
+I0
+S'/home/zane/Music/MAIN/Gaul'
+tp110
+a(lp111
+aa(lp112
+(S'Girl Talk'
+I0
+S'/home/zane/Music/MAIN/Girl Talk'
+tp113
+a(lp114
+aa(lp115
+(S'Godspeed You! Black Emperor'
+I0
+S'/home/zane/Music/MAIN/Godspeed You! Black Emperor'
+tp116
+a(lp117
+aa(lp118
+(S'Green Day'
+I0
+S'/home/zane/Music/MAIN/Green Day'
+tp119
+a(lp120
+aa(lp121
+(S'Grinding Gear Games'
+I0
+S'/home/zane/Music/MAIN/Grinding Gear Games'
+tp122
+a(lp123
+aa(lp124
+(S"Guns N' Roses"
+I0
+S"/home/zane/Music/MAIN/Guns N' Roses"
+tp125
+a(lp126
+aa(lp127
+(S'Horrendous'
+I0
+S'/home/zane/Music/MAIN/Horrendous'
+tp128
+a(lp129
+aa(lp130
+(S'Iskra'
+I0
+S'/home/zane/Music/MAIN/Iskra'
+tp131
+a(lp132
+aa(lp133
+(S'Juvenile Baroque Slaughterhouse'
+I0
+S'/home/zane/Music/MAIN/Juvenile Baroque Slaughterhouse'
+tp134
+a(lp135
+aa(lp136
+(S'Kairon; IRSE!'
+I0
+S'/home/zane/Music/MAIN/Kairon; IRSE!'
+tp137
+a(lp138
+aa(lp139
+(S'Krigsgrav'
+I0
+S'/home/zane/Music/MAIN/Krigsgrav'
+tp140
+a(lp141
+aa(lp142
+(S'Le Tigre'
+I0
+S'/home/zane/Music/MAIN/Le Tigre'
+tp143
+a(lp144
+aa(lp145
+(S'Led Zeppelin'
+I0
+S'/home/zane/Music/MAIN/Led Zeppelin'
+tp146
+a(lp147
+aa(lp148
+(S'Liturgy'
+I0
+S'/home/zane/Music/MAIN/Liturgy'
+tp149
+a(lp150
+aa(lp151
+(S'Locrian'
+I0
+S'/home/zane/Music/MAIN/Locrian'
+tp152
+a(lp153
+aa(lp154
+(S'Locrian &amp; Christoph Heemann'
+I0
+S'/home/zane/Music/MAIN/Locrian & Christoph Heemann'
+tp155
+a(lp156
+aa(lp157
+(S'Mannveira'
+I0
+S'/home/zane/Music/MAIN/Mannveira'
+tp158
+a(lp159
+aa(lp160
+(S'Mare Cognitum'
+I0
+S'/home/zane/Music/MAIN/Mare Cognitum'
+tp161
+a(lp162
+aa(lp163
+(S'Mare Cognitum and Spectral Lore'
+I0
+S'/home/zane/Music/MAIN/Mare Cognitum and Spectral Lore'
+tp164
+a(lp165
+aa(lp166
+(S'Miles Davis'
+I0
+S'/home/zane/Music/MAIN/Miles Davis'
+tp167
+a(lp168
+aa(lp169
+(S'Mis\xc3\xbeyrming'
+I0
+S'/home/zane/Music/MAIN/Mis\xc3\xbeyrming'
+tp170
+a(lp171
+aa(lp172
+(S'Mount Erebus'
+I0
+S'/home/zane/Music/MAIN/Mount Erebus'
+tp173
+a(lp174
+aa(lp175
+(S'Myrkur'
+I0
+S'/home/zane/Music/MAIN/Myrkur'
+tp176
+a(lp177
+aa(lp178
+(S'Okazaki Fragments'
+I0
+S'/home/zane/Music/MAIN/Okazaki Fragments'
+tp179
+a(lp180
+aa(lp181
+(S'Old Witch'
+I0
+S'/home/zane/Music/MAIN/Old Witch'
+tp182
+a(lp183
+aa(lp184
+(S'Ozzy Osbourne'
+I0
+S'/home/zane/Music/MAIN/Ozzy Osbourne'
+tp185
+a(lp186
+aa(lp187
+(S'Panopticon'
+I0
+S'/home/zane/Music/MAIN/Panopticon'
+tp188
+aNaa(lp189
+(S'Qualeaceans'
+I0
+S'/home/zane/Music/MAIN/Qualeaceans'
+tp190
+a(lp191
+aa(lp192
+(S'Radiohead'
+I0
+S'/home/zane/Music/MAIN/Radiohead'
+tp193
+a(lp194
+aa(lp195
+(S'Rage Against The Machine'
+I0
+S'/home/zane/Music/MAIN/Rage Against The Machine'
+tp196
+a(lp197
+aa(lp198
+(S'Robert Plant &amp; The Strange Sensation'
+I0
+S'/home/zane/Music/MAIN/Robert Plant & The Strange Sensation'
+tp199
+a(lp200
+aa(lp201
+(S'Shining'
+I0
+S'/home/zane/Music/MAIN/Shining'
+tp202
+a(lp203
+aa(lp204
+(S'Skagos'
+I0
+S'/home/zane/Music/MAIN/Skagos'
+tp205
+a(lp206
+aa(lp207
+(S'Sleater-Kinney'
+I0
+S'/home/zane/Music/MAIN/Sleater-Kinney'
+tp208
+a(lp209
+aa(lp210
+(S'Sleep'
+I0
+S'/home/zane/Music/MAIN/Sleep'
+tp211
+a(lp212
+aa(lp213
+(S'Slugdge'
+I0
+S'/home/zane/Music/MAIN/Slugdge'
+tp214
+a(lp215
+aa(lp216
+(S'Sun Worship'
+I0
+S'/home/zane/Music/MAIN/Sun Worship'
+tp217
+a(lp218
+aa(lp219
+(S'Swans'
+I0
+S'/home/zane/Music/MAIN/Swans'
+tp220
+a(lp221
+aa(lp222
+(S'Swarms'
+I0
+S'/home/zane/Music/MAIN/Swarms'
+tp223
+a(lp224
+aa(lp225
+(S'Taj Mahal'
+I0
+S'/home/zane/Music/MAIN/Taj Mahal'
+tp226
+a(lp227
+aa(lp228
+(S'Tenacious D'
+I0
+S'/home/zane/Music/MAIN/Tenacious D'
+tp229
+a(lp230
+aa(lp231
+(S'The Charlie Daniels Band'
+I0
+S'/home/zane/Music/MAIN/The Charlie Daniels Band'
+tp232
+a(lp233
+aa(lp234
+(S'The Clash'
+I0
+S'/home/zane/Music/MAIN/The Clash'
+tp235
+a(lp236
+aa(lp237
+(S'The Decemberists'
+I0
+S'/home/zane/Music/MAIN/The Decemberists'
+tp238
+a(lp239
+aa(lp240
+(S"The i.l.y's"
+I0
+S"/home/zane/Music/MAIN/The i.l.y's"
+tp241
+a(lp242
+aa(lp243
+(S'The Jimi Hendrix Experience'
+I0
+S'/home/zane/Music/MAIN/The Jimi Hendrix Experience'
+tp244
+a(lp245
+aa(lp246
+(S'The Lonely Island'
+I0
+S'/home/zane/Music/MAIN/The Lonely Island'
+tp247
+a(lp248
+aa(lp249
+(S'The Stooges'
+I0
+S'/home/zane/Music/MAIN/The Stooges'
+tp250
+a(lp251
+aa(lp252
+(S'The Who'
+I0
+S'/home/zane/Music/MAIN/The Who'
+tp253
+a(lp254
+aa(lp255
+(S'Trudger'
+I0
+S'/home/zane/Music/MAIN/Trudger'
+tp256
+a(lp257
+aa(lp258
+(S'Ulver'
+I0
+S'/home/zane/Music/MAIN/Ulver'
+tp259
+a(lp260
+aa(lp261
+(S'videos'
+I0
+S'/home/zane/Music/MAIN/videos'
+tp262
+a(lp263
+aa(lp264
+(S'Weakling'
+I0
+S'/home/zane/Music/MAIN/Weakling'
+tp265
+a(lp266
+aaaa(lp267
+(S'playlists'
+I0
+S'/home/zane/Music/playlists'
+tp268
+aNaasS'selected-paths'
+p269
+(lp270
+(I0
+I7
+I0
+tp271
+asS'vscrollbar-pos'
+p272
+F94
+sssS'__main___win-height'
+p273
+I470
+sS'CtrlPanel_volume'
+p274
+F0.65000000000000002
+sS'__main___win-is-maximized'
+p275
+I00
+s.

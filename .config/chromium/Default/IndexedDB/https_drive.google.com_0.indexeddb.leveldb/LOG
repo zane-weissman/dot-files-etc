@@ -1,0 +1,9 @@
+2017/10/03-21:32:56.728 26442 Reusing MANIFEST /home/zane/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/10/03-21:32:56.728 26442 Recovering log #1306
+2017/10/03-21:32:56.738 26442 Reusing old log /home/zane/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/001306.log 
+2017/10/03-21:33:07.599 26586 Level-0 table #1313: started
+2017/10/03-21:33:07.642 26586 Level-0 table #1313: 5242247 bytes OK
+2017/10/03-21:33:07.642 26586 Delete type=0 #1306
+2017/10/04-13:28:58.979 26586 Level-0 table #1315: started
+2017/10/04-13:28:59.025 26586 Level-0 table #1315: 4943826 bytes OK
+2017/10/04-13:28:59.025 26586 Delete type=0 #1312

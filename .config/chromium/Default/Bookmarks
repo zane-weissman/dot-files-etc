@@ -1,0 +1,155 @@
+{
+   "checksum": "46c2f966d3bd30be91e0137b7922add5",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13113448432017116",
+            "id": "70",
+            "meta_info": {
+               "last_visited_desktop": "13151452586806877"
+            },
+            "name": "Outlook",
+            "sync_transaction_version": "814",
+            "type": "url",
+            "url": "https://outlook.office.com/owa/?realm=wpi.edu"
+         }, {
+            "date_added": "13090445038951596",
+            "id": "45",
+            "meta_info": {
+               "last_visited_desktop": "13148068449589032"
+            },
+            "name": "bentley email",
+            "sync_transaction_version": "729",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#inbox"
+         }, {
+            "date_added": "13116978341065876",
+            "id": "74",
+            "meta_info": {
+               "last_visited_desktop": "13151617669523310"
+            },
+            "name": "Canvas",
+            "sync_transaction_version": "824",
+            "type": "url",
+            "url": "https://canvas.wpi.edu/"
+         }, {
+            "date_added": "13090463637493497",
+            "id": "48",
+            "meta_info": {
+               "last_visited_desktop": "13150753229861237"
+            },
+            "name": "bw",
+            "sync_transaction_version": "793",
+            "type": "url",
+            "url": "https://bannerweb.wpi.edu/pls/prod/twbkwbis.P_WWWLogin"
+         }, {
+            "date_added": "13099426892657884",
+            "id": "57",
+            "meta_info": {
+               "last_visited_desktop": "13151616393173630"
+            },
+            "name": "Recent - Google Drive",
+            "sync_transaction_version": "823",
+            "type": "url",
+            "url": "https://drive.google.com/drive/recent"
+         }, {
+            "date_added": "13134679810461400",
+            "id": "99",
+            "name": "Save to RefWorks",
+            "sync_transaction_version": "181",
+            "type": "url",
+            "url": "javascript:var d=document,s=d.createElement('script'),EXT_SERVICE_PROVIDER='https://refworks.proquest.com',PME_SERVICE_PROVIDER='https://pme.proquest.com';s.src=PME_SERVICE_PROVIDER+'/PME.js';(d.body?d.body:d.documentElement).appendChild(s);void(0);"
+         }, {
+            "date_added": "13135453053713196",
+            "id": "104",
+            "meta_info": {
+               "last_visited_desktop": "13139900629209015"
+            },
+            "name": "cat",
+            "sync_transaction_version": "624",
+            "type": "url",
+            "url": "https://web.wpi.edu/Images/CMS/Pubs-Catalogs-Ugrad/WPI_UGcat16-17FinalWEB.pdf"
+         }, {
+            "date_added": "13135453186414103",
+            "id": "105",
+            "meta_info": {
+               "last_visited_desktop": "13142033915726987"
+            },
+            "name": "cat - grad",
+            "sync_transaction_version": "634",
+            "type": "url",
+            "url": "https://web.wpi.edu/Images/CMS/Graduate/GradCat16-17-WEB-final.pdf"
+         }, {
+            "date_added": "13101532441338221",
+            "id": "60",
+            "meta_info": {
+               "last_visited_desktop": "13139900359059151"
+            },
+            "name": "Schedule Planner",
+            "sync_transaction_version": "624",
+            "type": "url",
+            "url": "https://wpi.collegescheduler.com/spa#entry"
+         }, {
+            "date_added": "13131697874638365",
+            "id": "93",
+            "meta_info": {
+               "last_visited_desktop": "13135714095998268"
+            },
+            "name": "trksht2",
+            "sync_transaction_version": "328",
+            "type": "url",
+            "url": "https://web.wpi.edu/Images/CMS/Advising/ECE.pdf"
+         }, {
+            "date_added": "13119490799837067",
+            "id": "102",
+            "meta_info": {
+               "last_visited_desktop": "13137791154342145"
+            },
+            "name": "iqp app",
+            "sync_transaction_version": "605",
+            "type": "url",
+            "url": "https://wpi-sa.terradotta.com/index.cfm?FuseAction=Students.Application&Application_ID=53641"
+         }, {
+            "date_added": "13135094522721997",
+            "id": "103",
+            "name": "RW",
+            "sync_transaction_version": "287",
+            "type": "url",
+            "url": "javascript:var d=document,s=d.createElement('script'),EXT_SERVICE_PROVIDER='https://refworks.proquest.com',PME_SERVICE_PROVIDER='https://pme.proquest.com';s.src=PME_SERVICE_PROVIDER+'/PME.js';(d.body?d.body:d.documentElement).appendChild(s);void(0);"
+         }, {
+            "date_added": "13136695397266928",
+            "id": "108",
+            "meta_info": {
+               "last_visited_desktop": "13137710521814946"
+            },
+            "name": "grad app",
+            "sync_transaction_version": "601",
+            "type": "url",
+            "url": "https://gradapp.wpi.edu/apply/"
+         } ],
+         "date_added": "13084441955796144",
+         "date_modified": "13151616414467307",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13084441955796160",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "824",
+      "synced": {
+         "children": [  ],
+         "date_added": "13084441955796162",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

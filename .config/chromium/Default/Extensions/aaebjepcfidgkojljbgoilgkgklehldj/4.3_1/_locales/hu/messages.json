@@ -1,0 +1,213 @@
+{
+   "accessAppName": {
+      "message": "Microsoft Office Access"
+   },
+   "cancel": {
+      "message": "Mégse"
+   },
+   "close": {
+      "message": "Bezárás"
+   },
+   "create": {
+      "message": "Létrehoz"
+   },
+   "createOfficeFileDialogTitle": {
+      "message": "Új Microsoft Office fájl"
+   },
+   "dialogNotesTitle": {
+      "message": "\u003Cu>Megjegyzés\u003C/u>:"
+   },
+   "excelAppName": {
+      "message": "Microsoft Office Excel"
+   },
+   "excelDialogFileNameInputPlaceholder": {
+      "message": "Excel dokumentum neve"
+   },
+   "extensionChanged": {
+      "message": "AwesomeDrive kiterjesztés frissítve vagy törölve lett. A változtatások érvényesítéséhez szükség van \u003Ca href=\"#\" class=\"apply-ext-changes\">az oldal frissítésére\u003C/a>"
+   },
+   "gridViewError": {
+      "message": "$extensionName$ - A rács nézet nem támogatott, \u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"switchToListView\" data-close>kérem, váltson lista nézetre\u003C/a>",
+      "placeholders": {
+         "extensionName": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "AwesomeDrive a Google Drivehoz"
+   },
+   "newExcelMenuItem": {
+      "message": "Excel dokumentum"
+   },
+   "newFileFailed": {
+      "message": "Új fájl létrehozása a Drive-ban sikertelen volt"
+   },
+   "newFileInProgress": {
+      "message": "Új fájl létrehozása"
+   },
+   "newOfficeDocFailed": {
+      "message": "\u003Cspan class=\"ao-capitalize\">$officeSoftware$\u003C/span>-nak nem sikerült létrehoznia a \"$docName$\" dokumentumot",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         },
+         "officeSoftware": {
+            "content": "$2"
+         }
+      }
+   },
+   "newOfficeDocInProgress": {
+      "message": "\u003Cspan class=\"ao-capitalize\">$officeSoftware$\u003C/span> dokumentum \"$docName$\" létrehozása...",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         },
+         "officeSoftware": {
+            "content": "$2"
+         }
+      }
+   },
+   "newOfficeDocSuccess": {
+      "message": "\"$docName$\" dokumentum sikeresen létrehozva. Hamarosan meg fog jelenni a mappájában",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         }
+      }
+   },
+   "newOfficeDocSuccessWebdav": {
+      "message": "\"$docName$\" dokumentum sikeresen létrehozva, hamarosan meg kell nyílnia a Microsoft \u003Cspan class=\"ao-capitalize\">$officeSoftware$\u003C/span> -ban",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         },
+         "officeSoftware": {
+            "content": "$2"
+         }
+      }
+   },
+   "newPowerpointMenuItem": {
+      "message": "Powerpoint dokumentum"
+   },
+   "newWordMenuItem": {
+      "message": "Word dokumentum"
+   },
+   "oauthFailureDetail": {
+      "message": "Az AwesomeDrive nincsen hitelesítve, kérem, frissítse a Google Drive oldalát a hitelesítő ablak ismételt megjelenítéséhez."
+   },
+   "oauthFailureTitle": {
+      "message": "A jogosultságok nem megfelelőek"
+   },
+   "oauthSuccessDetail": {
+      "message": "Az AwesomeDrive mostantól elérhető a Google Drive oldalain."
+   },
+   "oauthSuccessTitle": {
+      "message": "AwesomeDrive hitelesítése sikeres volt"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "openFileTooltip": {
+      "message": "A fájl megnyitása"
+   },
+   "or": {
+      "message": "vagy"
+   },
+   "pageActionTitle": {
+      "message": "AwesomeDrive"
+   },
+   "popupCloseSettings": {
+      "message": "Bezárás"
+   },
+   "popupDisabledFeature": {
+      "message": "Ez a szolgáltatás ki lett kapcsolva a beállításokban"
+   },
+   "popupErrDOM": {
+      "message": "A Drive oldal felépítése érvénytelennek tűnik. Ez a szolgáltatás elérhetetlenné fog válni."
+   },
+   "popupErrGridView": {
+      "message": "A rács nézet nem támogatott, \u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"switchToListView\" data-close>kérem, váltson lista nézetre\u003C/a>"
+   },
+   "popupErrNoUser": {
+      "message": "Nem sikerült azonosítani az aktuális felhasználót.\u003Cbr/>Kérjük próbálja meg a következőket:\u003Cul>\u003Cli>Töltse újra az oldalt\u003C/li>\u003Cli>\u003Ca href=\"https://plus.google.com/communities/115205398759066781480\" target=\"_blank\">Kérjen segítséget a közösség\u003C/a>\u003C/li>\u003C/ul>"
+   },
+   "popupErrNotAuthorize": {
+      "message": "Hiányoznak a AwesomeDrive indításához szükséges jogosultságok.\u003Cbr/>\u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"reload\">Jogosultságok oldal megnyitása\u003C/a>"
+   },
+   "popupErrUnexpected": {
+      "message": "Egy váratlan hiba történt a AwesomeDrive indítása közben. Elnézést kérünk az okozott kellemetlenségért."
+   },
+   "popupInitializing": {
+      "message": "Várakozás a AwesomeDrive indításához szükséges jogosultságokra...\u003Cbr/>\u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"reload\">Jogosultságok oldal megnyitása\u003C/a>"
+   },
+   "popupNewOfficeFile": {
+      "message": "Létrehozása MS Office-fájlok"
+   },
+   "popupNotInitialized": {
+      "message": "A AwesomeDrive indítása még nem kezdődött el.\u003Cbr/>Kérem, várjon pár percet, vagy frissítse a Drive oldalát."
+   },
+   "popupOpenFile": {
+      "message": "Nyissa meg az összes fájltípust"
+   },
+   "popupPrevious": {
+      "message": "Vissza"
+   },
+   "popupReload": {
+      "message": "Frissítés"
+   },
+   "popupSaveSettingsFail": {
+      "message": "A változtatások mentése nem sikerült"
+   },
+   "popupSettings": {
+      "message": "Beállítások"
+   },
+   "popupStatus": {
+      "message": "Állapot"
+   },
+   "popupWarnDOM": {
+      "message": "A Drive oldal felépítése érvénytelennek tűnik. Ez a szolgáltatás elérhetetlenné válhat."
+   },
+   "powerpointAppName": {
+      "message": "Microsoft Office Powerpoint"
+   },
+   "powerpointDialogFileNameInputPlaceholder": {
+      "message": "Powerpoint dokumentum neve"
+   },
+   "settingsPageTitle": {
+      "message": "AwesomeDrive - Beállítások"
+   },
+   "shortName": {
+      "message": "AwesomeDrive"
+   },
+   "visioAppName": {
+      "message": "Microsoft Office Visio"
+   },
+   "webDavExernalNoEditRights": {
+      "message": "Nincs jogosultsága a fájl szerkesztéséhez, a fájl olvasási módban nyílik meg"
+   },
+   "webDavExternalFailedQuota": {
+      "message": "Hiba történt a fájl megnyitása során, túllépte az AOdocs MS Office fájlok szerkesztésére engedélyezett kvótát"
+   },
+   "webDavExternalSizeWarning": {
+      "message": "Nagy méretű fájl szerkesztése. Ha túl sok tartalmat add a fájlhoz nem fogja tudni elmenteni azt (maximális méret: 32 MB)"
+   },
+   "webDavFailed": {
+      "message": "Nem sikerült megnyitni a fájlt. Sikertelen volt az Office file URL-jének lekérdezése"
+   },
+   "webDavFailedTooLarge": {
+      "message": "Nem sikerült megnyitni a fájlt, a fájl túl nagy (> 32MB). Kérem használja a szokásos letöltés/feltöltés műveleteket a fájl szerkesztéséhez"
+   },
+   "webDavFailedUnauthorized": {
+      "message": "Nincs jogosultsága a fájl szerkesztéséhez"
+   },
+   "webdavMalformedName": {
+      "message": "Nem sikerült megnyitni a fájlnév nem érvényes. Ellenőrizze, hogy a végén egy érvényes MS Office mellék"
+   },
+   "wordAppName": {
+      "message": "Microsoft Office Word"
+   },
+   "wordDialogFileNameInputPlaceholder": {
+      "message": "Word dokumentum neve"
+   }
+}

@@ -1,0 +1,45 @@
+{
+   "background": {
+      "scripts": [ "module/common/common.bundle.js", "vendor/vendor.bundle.js", "vendor/oauth2/oauth2.js", "module/background/background.bundle.js" ]
+   },
+   "container": "GOOGLE_DRIVE",
+   "content_scripts": [ {
+      "js": [ "module/content-script/drive/preload.js" ],
+      "matches": [ "*://drive.google.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "vendor/oauth2/oauth2_inject.js" ],
+      "matches": [ "https://storage.googleapis.com/awesomedrive/AwesomeDriveLogo-120.png*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "css/common/common.css", "css/content-script/common.css", "css/content-script/drive.css" ],
+      "js": [ "module/common/common.bundle.js", "vendor/vendor.bundle.js", "lib/lib.bundle.js", "module/content-script/drive.bundle.js" ],
+      "matches": [ "*://drive.google.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com https://apis.google.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "img/extension/awesome-drive-128.png",
+      "16": "img/extension/awesome-drive-16.png",
+      "48": "img/extension/awesome-drive-48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh32EE4lZDkbUGJpC4NLwKlwtGSPVgt1OXZl4avtz5Rj3NyIi5n2BCbHeAhCxu3CzzrHAL6kq6UA3y8AfXOBhwV3IbgnMa0yYUfeebsK0PAWSpre1nufcLLRr/aUYxZZUeJcJO2LhKaBYRSoz85T8zAcP7TMYh4ip8tHzIQT0EQOnkXH1s38XzDe/KwE15k2+bclDwwWXtUu0dwuih7iVIDHTuSfNXkIqBx2aSaZu5X23ZilYCi7uXreMeVwaPWXl6HlzldMS3IPctxr9Ido8IJpbU35Qw20RFVuU7Iq1oi+Tlyb5X6AgYJcmsj3Mqb2C5ZF6ajLusJ2m5GpzIkmIgQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "55",
+   "name": "__MSG_name__",
+   "page_action": {
+      "default_icon": {
+         "19": "img/extension/awesome-drive-loading.png",
+         "38": "img/extension/awesome-drive-loading.png"
+      },
+      "default_popup": "html/page-action/status.html",
+      "default_title": "__MSG_pageActionTitle__"
+   },
+   "permissions": [ "notifications", "declarativeContent", "storage", "https://storage.googleapis.com/", "https://www.googleapis.com/", "https://drive-utils.appspot.com/_ah/api/driveUtils/v1beta" ],
+   "short_name": "__MSG_shortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.3",
+   "web_accessible_resources": [ "manifest.json", "img/*", "office-template/*", "vendor/oauth2/oauth2.html", "module/embedded/addEventListenerOverride.js", "module/embedded/embedded.bundle.js" ]
+}

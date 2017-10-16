@@ -1,0 +1,70 @@
+1508079300572	Sync.Service	DEBUG	User-Agent: Firefox/55.0.2 (Linux x86_64) FxSync/1.57.0.20170816210634.desktop
+1508079300572	Sync.Service	INFO	Starting sync at 2017-10-15 10:55:00 in browser session ts8g4hcA_DvG
+1508079300573	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1508079300573	Sync.Telemetry	TRACE	observed weave:service:sync:start 
+1508079300576	Sync.Status	INFO	Resetting Status.
+1508079300576	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1508079300578	FirefoxAccounts	DEBUG	already verified
+1508079300578	Sync.BrowserIDManager	INFO	Getting an assertion from: https://token.services.mozilla.com/1.0/sync/1.5
+1508079300579	FirefoxAccounts	DEBUG	enter getAssertion()
+1508079300581	FirefoxAccounts	DEBUG	getKeypairAndCertificate: already have keyPair and certificate
+1508079300581	FirefoxAccounts	DEBUG	getAssertionFromCert
+1508079300587	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1508079300587	Sync.BrowserIDManager	DEBUG	Getting a token
+1508079300588	Common.TokenServerClient	DEBUG	Beginning BID assertion exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1508079300589	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1508079300589	Services.Common.RESTRequest	TRACE	HTTP Header accept: application/json
+1508079300589	Services.Common.RESTRequest	TRACE	HTTP Header authorization: ***** (suppressed)
+1508079300590	Services.Common.RESTRequest	TRACE	HTTP Header x-client-state: 487f0c897d6a9d5e22ffc07a2d2c4bb6
+1508079300594	Services.Common.RESTRequest	TRACE	onStartRequest: GET https://token.services.mozilla.com/1.0/sync/1.5
+1508079300594	Services.Common.RESTRequest	TRACE	Channel for GET https://token.services.mozilla.com/1.0/sync/1.5 returned status code 2152398878
+1508079300594	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1508079300595	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}}) (resource://services-common/tokenserverclient.js:38:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16 < onResponse@tokenserverclient.js:270:12 < onStopRequest@rest.js:485:7 < waitForSyncCallback@async.js:98:7 < makeSpinningCallback/callback.wait@async.js:168:27 < _getAuthenticationHeader@browserid_identity.js:707:7 < _createRequest@resource.js:157:20 < _doRequest/<@resource.js:183:21 < _doRequest@resource.js:181:12 < get@resource.js:333:12 < _fetchInfo@service.js:470:38 < sync@enginesync.js:79:16 < onNotify@service.js:1081:7 < WrappedNotify@util.js:160:21 < WrappedLock@util.js:116:16 < _lockedSync@service.js:1071:12 < sync/<@service.js:1063:7 < WrappedCatch@util.js:91:16 < sync@service.js:1052:5
+1508079300597	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1508079300597	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1508079300601	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1508079300602	FirefoxAccounts	DEBUG	getOAuthToken enter
+1508079300604	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1508079300605	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1508079300605	Services.Common.RESTRequest	TRACE	HTTP Header authorization: ***** (suppressed)
+1508079300605	Services.Common.RESTRequest	TRACE	HTTP Header accept: application/json
+1508079300605	Services.Common.RESTRequest	TRACE	HTTP Header if-none-match: "150a093882ab48318096faa73a8ae30eb5d10cb0-gzip"
+1508079300607	Sync.BrowserIDManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}}) (resource://services-common/tokenserverclient.js:38:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16 < onResponse@tokenserverclient.js:270:12 < onStopRequest@rest.js:485:7 < waitForSyncCallback@async.js:98:7 < makeSpinningCallback/callback.wait@async.js:168:27 < _getAuthenticationHeader@browserid_identity.js:707:7 < _createRequest@resource.js:157:20 < _doRequest/<@resource.js:183:21 < _doRequest@resource.js:181:12 < get@resource.js:333:12 < _fetchInfo@service.js:470:38 < sync@enginesync.js:79:16 < onNotify@service.js:1081:7 < WrappedNotify@util.js:160:21 < WrappedLock@util.js:116:16 < _lockedSync@service.js:1071:12 < sync/<@service.js:1063:7 < WrappedCatch@util.js:91:16 < sync@service.js:1052:5
+1508079300620	Services.Common.RESTRequest	TRACE	onStartRequest: GET https://profile.accounts.firefox.com/v1/profile
+1508079300620	Services.Common.RESTRequest	TRACE	Channel for GET https://profile.accounts.firefox.com/v1/profile returned status code 2152398878
+1508079300620	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1508079300621	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 483\"  data: no]"}
+1508079300623	Sync.AsyncResource	WARN	GET request to https://sync-427-us-west-2.sync.services.mozilla.com/1.5/62268718/info/collections failed: [Exception... "NS_ERROR_UNKNOWN_HOST"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "JS frame :: resource://services-sync/resource.js :: Channel_onStopRequest :: line 422"  data: no] Stack trace: Channel_onStopRequest()@resource://services-sync/resource.js:422 < waitForSyncCallback()@resource://services-common/async.js:98 < makeSpinningCallback/callback.wait()@resource://services-common/async.js:168 < promiseSpinningly()@resource://services-common/async.js:234 < _fetchInfo()@resource://services-sync/service.js:470 < sync()@resource://services-sync/stages/enginesync.js:79 < onNotify()@resource://services-sync/service.js:1081 < WrappedNotify()@resource://services-sync/util.js:160 < WrappedLock()@resource://services-sync/util.js:116 < _lockedSync()@resource://services-sync/service.js:1071 < sync/<()@resource://services-sync/service.js:1063 < WrappedCatch()@resource://services-sync/util.js:91 < sync()@resource://services-sync/service.js:1052
+1508079300626	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1508079300626	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1508079300627	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms.
+1508079300627	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "NS_ERROR_UNKNOWN_HOST"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "JS frame :: resource://services-sync/resource.js :: Channel_onStopRequest :: line 422"  data: no] Stack trace: Channel_onStopRequest()@resource://services-sync/resource.js:422 < waitForSyncCallback()@resource://services-common/async.js:98 < makeSpinningCallback/callback.wait()@resource://services-common/async.js:168 < promiseSpinningly()@resource://services-common/async.js:234 < _fetchInfo()@resource://services-sync/service.js:470 < sync()@resource://services-sync/stages/enginesync.js:79 < onNotify()@resource://services-sync/service.js:1081 < WrappedNotify()@resource://services-sync/util.js:160 < WrappedLock()@resource://services-sync/util.js:116 < _lockedSync()@resource://services-sync/service.js:1071 < sync/<()@resource://services-sync/service.js:1063 < WrappedCatch()@resource://services-sync/util.js:91 < sync()@resource://services-sync/service.js:1052
+1508079300629	Sync.Telemetry	TRACE	observed weave:service:sync:error 
+1508079300633	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "NS_ERROR_UNKNOWN_HOST"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "JS frame :: resource://services-sync/resource.js :: Channel_onStopRequest :: line 422"  data: no] Stack trace: Channel_onStopRequest()@resource://services-sync/resource.js:422 < waitForSyncCallback()@resource://services-common/async.js:98 < makeSpinningCallback/callback.wait()@resource://services-common/async.js:168 < promiseSpinningly()@resource://services-common/async.js:234 < _fetchInfo()@resource://services-sync/service.js:470 < sync()@resource://services-sync/stages/enginesync.js:79 < onNotify()@resource://services-sync/service.js:1081 < WrappedNotify()@resource://services-sync/util.js:160 < WrappedLock()@resource://services-sync/util.js:116 < _lockedSync()@resource://services-sync/service.js:1071 < sync/<()@resource://services-sync/service.js:1063 < WrappedCatch()@resource://services-sync/util.js:91 < sync()@resource://services-sync/service.js:1052
+1508079300647	Sync.ErrorHandler	DEBUG	Addons installed: 26
+1508079300648	Sync.ErrorHandler	DEBUG	 - NetVideoHunter, version 1.20, id netvideohunter@netvideohunter.com
+1508079300648	Sync.ErrorHandler	DEBUG	 - Location Bar Enhancer, version 5.3, id UIEnhancer@girishsharma
+1508079300648	Sync.ErrorHandler	DEBUG	 - Private Browsing Personas, version 0.1.1-signed.1-signed, id pbm-personas@dactyl.googlecode.com
+1508079300648	Sync.ErrorHandler	DEBUG	 - Back to Close, version 1.11.1-signed.1-signed, id backtoclose@chrismcgarry.co.uk
+1508079300649	Sync.ErrorHandler	DEBUG	 - Lightweight Themes Manager, version 0.2.1-signed.1-let-fixed.1-signed, id lwthemes-manager@loucypher
+1508079300649	Sync.ErrorHandler	DEBUG	 - Omnibar, version 0.7.28.20141004.1-signed.1-signed, id omnibar@ajitk.com
+1508079300649	Sync.ErrorHandler	DEBUG	 - DOM Inspector, version 2.0.16.1-signed, id inspector@mozilla.org
+1508079300649	Sync.ErrorHandler	DEBUG	 - Click to play switch, version 1.0.1-signed.1-signed, id clicktoplaybutton@bleupomme.net
+1508079300650	Sync.ErrorHandler	DEBUG	 - KeePass Helper, version 3.0.2.1-signed.1-signed, id bughunter2@hostnameintitlebar
+1508079300650	Sync.ErrorHandler	DEBUG	 - NoUn Buttons, version 1.1.4.1.1-signed.1-signed, id {99f30549-35d4-11d9-8a2a-396c6e707e82}
+1508079300650	Sync.ErrorHandler	DEBUG	 - Tabs on Bottom, version 0.7.3, id tabsonbottom@piro.sakura.ne.jp
+1508079300650	Sync.ErrorHandler	DEBUG	 - Stylish, version 2.0.7, id {46551EC9-40F0-4e47-8E18-8E5CF550CFB8}
+1508079300651	Sync.ErrorHandler	DEBUG	 - NewScrollbars (aka NoiaScrollbars), version 1.2.8, id NoiaScrollbars@ArisT2_Noia4dev
+1508079300651	Sync.ErrorHandler	DEBUG	 - New Tab Homepage, version 0.5.3, id {66E978CD-981F-47DF-AC42-E3CF417C1467}
+1508079300651	Sync.ErrorHandler	DEBUG	 - Vimperator, version 3.16.0, id vimperator@mozdev.org
+1508079300651	Sync.ErrorHandler	DEBUG	 - Location Guard, version 1.2.3, id jid1-HdwPLukcGQeOSh@jetpack
+1508079300651	Sync.ErrorHandler	DEBUG	 - TinEye Reverse Image Search, version 1.3.2, id tineye@ideeinc.com
+1508079300652	Sync.ErrorHandler	DEBUG	 - HttpRequester, version 2.2, id {ea4637dc-e014-4c17-9c2c-879322d23268}
+1508079300652	Sync.ErrorHandler	DEBUG	 - KeeFox, version 1.7.2, id keefox@chris.tomlinson
+1508079300653	Sync.ErrorHandler	DEBUG	 - Ubuntu Modifications, version 3.4, id ubufox@ubuntu.com
+1508079300653	Sync.ErrorHandler	DEBUG	 - Tree Style Tab, version 0.19.2017090601, id treestyletab@piro.sakura.ne.jp
+1508079300653	Sync.ErrorHandler	DEBUG	 - Disable Ctrl-Q Shortcut, version 20120821.1-signed.1-signed, id dcqs@moongiraffe.net
+1508079300653	Sync.ErrorHandler	DEBUG	 - Reddit Enhancement Suite, version 5.8.6, id jid1-xUfzOsOFlzSOXg@jetpack
+1508079300653	Sync.ErrorHandler	DEBUG	 - Classic Theme Restorer, version 1.7.1, id ClassicThemeRestorer@ArisT2Noia4dev
+1508079300653	Sync.ErrorHandler	DEBUG	 - Greasemonkey, version 3.17, id {e4a8a97b-f2ed-450b-b12d-ee082ba24781}
+1508079300654	Sync.ErrorHandler	DEBUG	 - uBlock Origin, version 1.14.14, id uBlock0@raymondhill.net

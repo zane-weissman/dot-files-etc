@@ -1,0 +1,8 @@
+{
+   "description": {
+      "message": "Maak een QR Code van de geselecteerde tekst, huidige url of hyperlink."
+   },
+   "name": {
+      "message": "QR Code Generator"
+   }
+}

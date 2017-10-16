@@ -1,0 +1,66 @@
+10m0(Build:2)
+Element does not exist and cannot be created: "styles.xml.rels"
+Rethrow
+Element does not exist and cannot be created: "sharedStrings.xml.rels"
+Rethrow
+
+Rethrow
+Bad Zip File, IOException: Could not parse manifest.xml
+
+Rethrow
+
+Rethrow
+Element does not exist and cannot be created: "default.xml"
+Rethrow
+Element does not exist and cannot be created: "lc_imagelist.xml"
+Rethrow
+Element does not exist and cannot be created: "sc_imagelist.xml"
+Rethrow
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/sfxbasemodel.cxx:1657: storeAsURL
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1116: Begin
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1317: SaveAs/Export
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1330: Locking
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1544: Storing in alien format.
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1657: Medium commit.
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1668: Storing is successful.
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/sfxbasemodel.cxx:3103: Storing succeeded!
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/sfxbasemodel.cxx:1657: storeAsURL
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1116: Begin
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1317: SaveAs/Export
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1330: Locking
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1544: Storing in alien format.
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1657: Medium commit.
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1668: Storing is successful.
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/sfxbasemodel.cxx:3103: Storing succeeded!
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/sfxbasemodel.cxx:1657: storeAsURL
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/sfxbasemodel.cxx:1528: storeSelf
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/sfxbasemodel.cxx:1541: unexpected parameter for storeSelf, might be no problem if SaveAs is executed.
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1116: Begin
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1202: Save
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1270: Save: Alien to Alien
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1330: Locking
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1544: Storing in alien format.
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1657: Medium commit.
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:1668: Storing is successful.
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/sfxbasemodel.cxx:3103: Storing succeeded!
+Element does not exist and cannot be created: "styles.xml.rels"
+Rethrow
+Element does not exist and cannot be created: "sharedStrings.xml.rels"
+Rethrow
+
+Rethrow
+Bad Zip File, IOException: Could not parse manifest.xml
+
+Rethrow
+
+Rethrow
+Element does not exist and cannot be created: "default.xml"
+Rethrow
+Element does not exist and cannot be created: "lc_imagelist.xml"
+Rethrow
+Element does not exist and cannot be created: "sc_imagelist.xml"
+Rethrow
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/sfxbasemodel.cxx:1657: storeAsURL
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objstor.cxx:2646: 
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/objmisc.cxx:260: Resetting Error.
+/build/libreoffice-OypX7x/libreoffice-5.1.4/sfx2/source/doc/sfxbasemodel.cxx:3122: Storing failed!

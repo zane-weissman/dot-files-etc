@@ -1,0 +1,19 @@
+2017/09/28-18:07:40.849 14146 Reusing MANIFEST /home/zane/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/09/28-18:07:40.850 14146 Recovering log #1303
+2017/09/28-18:07:40.863 14146 Reusing old log /home/zane/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/001303.log 
+2017/09/28-18:07:51.669 14495 Level-0 table #1307: started
+2017/09/28-18:07:51.716 14495 Level-0 table #1307: 5235608 bytes OK
+2017/09/28-18:07:51.717 14495 Delete type=0 #1303
+2017/09/28-18:07:51.718 14495 Compacting 4@0 + 3@1 files
+2017/09/28-18:07:51.751 14495 Generated table #1308@0: 7 keys, 2380807 bytes
+2017/09/28-18:07:51.820 14495 Generated table #1309@0: 6 keys, 2487278 bytes
+2017/09/28-18:07:51.883 14495 Generated table #1310@0: 40 keys, 1244295 bytes
+2017/09/28-18:07:51.883 14495 Compacted 4@0 + 3@1 files => 6112380 bytes
+2017/09/28-18:07:51.883 14495 compacted to: files[ 0 3 1 0 0 0 0 ]
+2017/09/28-18:07:51.884 14495 Delete type=2 #1307
+2017/09/28-18:07:51.884 14495 Delete type=2 #1304
+2017/09/28-18:07:51.885 14495 Delete type=2 #1302
+2017/09/28-18:07:51.885 14495 Delete type=2 #1295
+2017/09/28-18:07:51.886 14495 Delete type=2 #1297
+2017/09/28-18:07:51.886 14495 Delete type=2 #1296
+2017/09/28-18:07:51.886 14495 Delete type=2 #1300

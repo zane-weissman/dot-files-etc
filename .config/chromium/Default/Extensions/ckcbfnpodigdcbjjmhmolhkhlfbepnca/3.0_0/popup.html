@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Google Drive Quick Create</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src='js/popup.js'></script>
+    <!-- Google Analytics -->
+    <script>
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+        function trackButton(e) {
+          ga.push(['_trackEvent', e.target.id, 'clicked']);
+        };
+
+        var buttons = document.querySelectorAll('li');
+        for (var i = 0; i < buttons.length; i++) {
+          buttons[i].addEventListener('click', trackButton);
+        }
+      })();
+    </script>
+    <!-- End Google Analytics -->
+  </head>
+  <body>
+    <div>
+      <p><strong><a href="https://drive.google.com" target="_blank">Default Account</a></strong></p>
+      <ul>
+        <li id="document" class="document"><a href="http://docs.google.com/document/u/0/create" target="_blank">Document</li>
+        <li id="spreadsheet" class="spreadsheet"><a href="http://docs.google.com/spreadsheets/u/0/create" target="_blank">Spreadsheet</a></li>
+        <li id="form" class="form"><a href="http://docs.google.com/forms/u/0/create" target="_blank">Form</a></li>
+        <li id="presentation" class="presentation"><a href="http://docs.google.com/presentation/u/0/create" target="_blank">Presentation</a></li>
+        <li id="drawing" class="drawing"><a href="https://docs.google.com/drawings/u/0/create" target="_blank">Drawing</a></li>
+      </ul>
+    </div>
+    <div style="display:none;" id="domain1">
+      <p><strong><a href="#" target="_blank"></a></strong></p>
+      <ul>
+        <li id="document2" class="document"><a href="#" target="_blank">Document</a></li>
+        <li id="spreadsheet2" class="spreadsheet"><a href="#" target="_blank">Spreadsheet</a></li>
+        <li id="form2" class="form"><a href="#" target="_blank">Form</a></li>
+        <li id="presentation2" class="presentation"><a href="#" target="_blank">Presentation</a></li>
+        <li id="drawing2" class="drawing"><a href="#" target="_blank">Drawing</a></li>
+      </ul>
+    </div>
+    <div style="display:none;" id="domain2">
+      <p><strong><a href="#" target="_blank"></a></strong></p>
+      <ul>
+        <li class="document"><a href="#" target="_blank">Document</a></li>
+        <li class="spreadsheet"><a href="#" target="_blank">Spreadsheet</a></li>
+        <li class="form"><a href="#" target="_blank">Form</a></li>
+        <li class="presentation"><a href="#" target="_blank">Presentation</a></li>
+        <li class="drawing"><a href="#" target="_blank">Drawing</a></li>
+      </ul>
+    </div>
+    <div style="display:none;" id="domain3">
+      <p><strong><a href="#" target="_blank"></a></strong></p>
+      <ul>
+        <li class="document"><a href="#" target="_blank">Document</a></li>
+        <li class="spreadsheet"><a href="#" target="_blank">Spreadsheet</a></li>
+        <li class="form"><a href="#" target="_blank">Form</a></li>
+        <li class="presentation"><a href="#" target="_blank">Presentation</a></li>
+        <li class="drawing"><a href="#" target="_blank">Drawing</a></li>
+      </ul>
+    </div>
+    <div style="display:none;" id="customTemplates">
+      <p><strong>Custom Templates</strong></p>
+      <ul>
+        <li id="name1" style="display:none;"><a href="#" target="_blank"></a></li>
+        <li id="name2" style="display:none;"><a href="#" target="_blank"></a></li>
+        <li id="name3" style="display:none;"><a href="#" target="_blank"></a></li>
+      </ul>
+    </div>
+  </body>
+</html>

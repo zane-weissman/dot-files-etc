@@ -1,0 +1,15 @@
+[nemo]
+command=nemo /home/zane\ 
+
+[Xfce Terminal]
+command=xfce4-terminal\ 
+
+[Firefox]
+command=/usr/lib/firefox/firefox\ 
+
+[Untitled - Chromium]
+command=chromium-browser --disable-new-tab-first-run --enable-user-scripts --enable-pinch\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+
+[guayadeque]
+command=guayadeque\ 
+

@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "container": "tab",
+         "web_url": "http://quizlet.com/"
+      },
+      "urls": [ "http://quizlet.com/" ]
+   },
+   "description": "Quizlet makes simple tools that let you study anything, for free",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYdcplpviJuM7lXdLe4wKgfqS/oO6sYOcaK9ITMIUof8G9aEDepo4bp+1IgtiTmUjN5dgD7q37LM2fNQ7/gkQNogPadr/JxjvcbpAd3M0hPptACz0NBjaQViq+Gs0mLWwW3VgtgHFRTLtwGSiiiB+5prOj3+tJs+j8X5wSH377XQIDAQAB",
+   "manifest_version": 2,
+   "name": "Quizlet",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.2"
+}

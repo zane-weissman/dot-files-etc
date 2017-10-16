@@ -1,0 +1,148 @@
+{
+  "tag_browser_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "book_details_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "convert_single_dialog_geom": {
+    "__value__": "AdnQywACAAAAAAA6AAAAAAAABNMAAAMIAAAAOwAAABoAAATSAAADBwAAAAAAAAAABQA=", 
+    "__class__": "bytearray"
+  }, 
+  "library_usage_stats": {
+    "/home/zane/Calibre Library": 6
+  }, 
+  "duplicates-question-dialog-geometry": {
+    "__value__": "AdnQywACAAAAAAGnAAAAgQAAA80AAAIXAAABqAAAAJsAAAPMAAACFgAAAAAAAAAABVY=", 
+    "__class__": "bytearray"
+  }, 
+  "custom_colors_for_color_dialog": [
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ]
+  ], 
+  "jobs view column layout3": {
+    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfQAAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AA=", 
+    "__class__": "bytearray"
+  }, 
+  "quick_start_guide_added": true, 
+  "cover_browser_splitter_vertical_state": [
+    false, 
+    300
+  ], 
+  "jobs_dialog_geometry": {
+    "__value__": "AdnQywACAAAAAAFKAAAATAAAA8QAAAKEAAABSwAAAGYAAAPDAAACgwAAAAAAAAAABQA=", 
+    "__class__": "bytearray"
+  }, 
+  "replace_scene_breaks_history": [
+    "", 
+    "<hr />", 
+    "\u2217 \u2217 \u2217", 
+    "\u2022 \u2022 \u2022", 
+    "\u2666 \u2666 \u2666", 
+    "\u2020 \u2020", 
+    "\u2021 \u2021 \u2021", 
+    "\u221e \u221e \u221e", 
+    "\u00a4 \u00a4 \u00a4"
+  ], 
+  "preferences dialog geometry": {
+    "__value__": "AdnQywACAAAAAACeAAAAGwAABEEAAAMFAAAAnwAAADUAAARAAAADBAAAAAAAAAAABQA=", 
+    "__class__": "bytearray"
+  }, 
+  "grid view visible": false
+}

@@ -1,0 +1,18 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "main.js" ]
+      }
+   },
+   "icons": {
+      "128": "128.png",
+      "16": "16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjbSmMhDGVFr4GIme+JYdRHcNDlqm6hiMlp2561NCirgsZL2oHhz744R36BBm3y2KRqp4BYWULT+pRCllr68HYCjmZmW3xxhA/tG7qjMuPMNQIBYaEOOOvrjEHAfuhKn2vIHQgiKs0ciJDyMt1Z3I18EAKkdMKbfE4VSoll3DnJTCI/1sOqmS/C0GCkPRpNsA2NJxK7XEjRX/n882x5JrwF9+rbnzQ43SNxWnRdBge14n/UKtzwwcHWo7CXRyhmKflcdrreIlLghs0jyumZcZyVz7Ptu7/aiMkv4TEp3de+frZaKJj+tfoDVdYwqW1S5YlhQkFJ+dyY7VAkWcbxWm4QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "23",
+   "name": "EdClub",
+   "permissions": [ "storage", "webview", "https://s.edclub.com/", "http://s.edclub.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1"
+}

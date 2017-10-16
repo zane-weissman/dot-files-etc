@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://online-voice-recorder.com/"
+      },
+      "urls": [ "http://online-voice-recorder.com/" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+OQi3l0qKu1LCOOWjippDCh1JBlu4ZcGF4NkRaZ6iCop8apxUbneP+aw+cndoOSeqLg9kSoOCfqQtIoe1lIFbRyug9xktirczHHLUNt44QG/Fts1CGvY7vxfjNlyYvh1xiSKE1KyhaBMdCvTFZvc4TAW3guWygxtmIZtQX+1chwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}

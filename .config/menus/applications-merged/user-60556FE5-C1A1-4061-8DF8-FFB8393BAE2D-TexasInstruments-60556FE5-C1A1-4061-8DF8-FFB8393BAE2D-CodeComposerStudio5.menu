@@ -1,0 +1,22 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+    "http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<!-- Do not edit manually - generated and managed by xdg-desktop-menu -->
+<Menu>
+    <Name>Applications</Name>
+<Menu>
+    <Name>60556FE5-C1A1-4061-8DF8-FFB8393BAE2D-TexasInstruments</Name>
+    <Directory>60556FE5-C1A1-4061-8DF8-FFB8393BAE2D-TexasInstruments.directory</Directory>
+<Menu>
+    <Name>60556FE5-C1A1-4061-8DF8-FFB8393BAE2D-CodeComposerStudio5</Name>
+    <Directory>60556FE5-C1A1-4061-8DF8-FFB8393BAE2D-CodeComposerStudio5.4.0.directory</Directory>
+    <Include>
+        <Filename>Code</Filename>
+        <Filename>Composer</Filename>
+        <Filename>Studio</Filename>
+        <Filename>5.4.0-program.desktop</Filename>
+        <Filename>CCSv5-ReleaseNote.desktop</Filename>
+        <Filename>5.4.0-uninstall.desktop</Filename>
+    </Include>
+</Menu>
+</Menu>
+</Menu>

@@ -1,0 +1,310 @@
+{
+   "accessAppName": {
+      "message": "Microsoft Office Access"
+   },
+   "cancel": {
+      "message": "Annuler"
+   },
+   "close": {
+      "message": "Fermer"
+   },
+   "create": {
+      "message": "Créer"
+   },
+   "createOfficeFileDialogTitle": {
+      "message": "Nouveau fichier Microsoft Office"
+   },
+   "description": {
+      "message": "Améliore votre expérience Google Drive"
+   },
+   "dialogNotesTitle": {
+      "message": "\u003Cu>Note\u003C/u> :"
+   },
+   "enableUfoDialogInstructions": {
+      "message": "\u003Cstrong>Pour l'activer\u003C/strong>, ouvrez la \u003Ca href=\"#\" class=\"extensions-settings\">page de gestion de vos extensions\u003C/a> et \u003Cstrong>cochez la case Activer\u003C/strong> à côté de l'extension UFO.\u003Cbr/>Une fois cette action effectuée, vous pourrez ouvrir votre fichier."
+   },
+   "enableUfoDialogIntro": {
+      "message": "Nous avons détecté que l'extension \u003Cstrong>Universal File Opener (UFO)\u003C/strong>, nécessaire à l'ouverture de ce type de fichier, est installée mais \u003Cstrong>désactivée\u003C/strong> dans votre navigateur Google Chrome."
+   },
+   "enableUfoDialogTitle": {
+      "message": "AODocs - Universal File Opener activation"
+   },
+   "excelAppName": {
+      "message": "Microsoft Office Excel"
+   },
+   "excelDialogFileNameInputPlaceholder": {
+      "message": "Nom du document Excel"
+   },
+   "extensionChanged": {
+      "message": "L'extension AwesomeDrive a été mise à jour ou désinstallée. La page doit être \u003Ca href=\"#\" class=\"apply-ext-changes\">actualisée\u003C/a> pour appliquer les changements"
+   },
+   "gridViewError": {
+      "message": "$extensionName$ - Mode Grille non supporté, \u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"switchToListView\" data-close>veuillez utiliser le mode Liste\u003C/a>",
+      "placeholders": {
+         "extensionName": {
+            "content": "$1"
+         }
+      }
+   },
+   "installUfoDialogAgreeButton": {
+      "message": "Oui, installer!"
+   },
+   "installUfoDialogDisagreeButton": {
+      "message": "Non, merci :-("
+   },
+   "installUfoDialogFeatureList": {
+      "message": "Bonne nouvelle ! Étendez le scope d'Awesome Drive en installant notre extension \u003Cstrong>Universal File Opener (UFO)\u003C/strong> pour :\u003Cul>\u003Cli>\u003Cstrong>Ouvrir tout type de fichiers\u003C/strong> depuis Google Drive avec vos logiciels en local,\u003C/li>\u003Cli>\u003Cstrong>Enregistrer les changements\u003C/strong> effectués en local directement dans Google Drive\u003C/li>\u003C/ul>"
+   },
+   "installUfoDialogImprovementList": {
+      "message": "UFO améliore aussi l'édition de fichiers depuis Google Drive en :\u003Cul>\u003Cli>\u003Cstrong>Supprimant la limite de 32Mo sur la taille des fichiers\u003C/strong>,\u003C/li>\u003Cli>\u003Cstrong>Supportant les anciennes versions de Microsoft Office\u003C/strong> (antérieures à Office 2013)\u003C/li>"
+   },
+   "installUfoDialogIntro": {
+      "message": "Vous souhaitez ouvrir d'autres types de fichiers que vos documents Microsoft Office ?"
+   },
+   "installUfoDialogLearnMore": {
+      "message": ">> En savoir plus"
+   },
+   "installUfoDialogNeverButton": {
+      "message": "Ne plus me demander pour ce compte"
+   },
+   "installUfoDialogPricing": {
+      "message": "UFO est actuellement disponible gratuitement en version bêta publique. À la fin de la période bêta, les utilisateurs d'Awesome Drive auront la possibilité d'acheter la fonctionnalité UFO contre un abonnement mensuel."
+   },
+   "installUfoDialogQuestion": {
+      "message": "Voulez-vous \u003Cstrong>installer l'extension UFO ?\u003C/strong>"
+   },
+   "installUfoDialogTitle": {
+      "message": "AODocs - Universal File Opener installation"
+   },
+   "installUfoDialogTooltip": {
+      "message": "Si vous changez d'avis, vous pouvez utiliser le lien \"Installer UFO\" en cliquant sur l'icône de l'extension \u003Cimg class=\"ao-awd-extension-icon\" src=\"$extensionIconUrl$\"/> à droite de la barre d'adresse du navigateur",
+      "placeholders": {
+         "extensionIconUrl": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "AwesomeDrive pour Google Drive"
+   },
+   "newExcelMenuItem": {
+      "message": "Document Excel"
+   },
+   "newFileFailed": {
+      "message": "Échec de la création du fichier dans Drive"
+   },
+   "newFileInProgress": {
+      "message": "Création d'un nouveau fichier en cours..."
+   },
+   "newOfficeDocFailed": {
+      "message": "Échec de la création du document \u003Cspan class=\"ao-capitalize\">$officeSoftware$\u003C/span> \"$docName$\"",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         },
+         "officeSoftware": {
+            "content": "$2"
+         }
+      }
+   },
+   "newOfficeDocInProgress": {
+      "message": "Création du document \u003Cspan class=\"ao-capitalize\">$officeSoftware$\u003C/span> \"$docName$\" en cours...",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         },
+         "officeSoftware": {
+            "content": "$2"
+         }
+      }
+   },
+   "newOfficeDocSuccess": {
+      "message": "Document \"$docName$\" créé avec succès, il apparaitra dans votre dossier dans un instant",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         }
+      }
+   },
+   "newOfficeDocSuccessWebdav": {
+      "message": "Document \"$docName$\" créé avec succès, il s'ouvrira dans Microsoft \u003Cspan class=\"ao-capitalize\">$officeSoftware$\u003C/span> dans un instant",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         },
+         "officeSoftware": {
+            "content": "$2"
+         }
+      }
+   },
+   "newPowerpointMenuItem": {
+      "message": "Document Powerpoint"
+   },
+   "newWordMenuItem": {
+      "message": "Document Word"
+   },
+   "oauthFailureDetail": {
+      "message": "AwesomeDrive non autorisée. Rafraîchissez votre page Google Drive pour réafficher la page d'autorisations."
+   },
+   "oauthFailureTitle": {
+      "message": "Autorisations refusées"
+   },
+   "oauthSuccessDetail": {
+      "message": "AwesomeDrive dispose désormais des autorisations nécessaires à son affichage dans vos pages Google Drive."
+   },
+   "oauthSuccessTitle": {
+      "message": "AwesomeDrive autorisée"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "openFileTooltip": {
+      "message": "Ouvrir le fichier"
+   },
+   "or": {
+      "message": "ou"
+   },
+   "pageActionTitle": {
+      "message": "AwesomeDrive"
+   },
+   "popupCloseSettings": {
+      "message": "Fermer"
+   },
+   "popupDisabledFeature": {
+      "message": "Cette fonctionnalité est désactivée dans vos options"
+   },
+   "popupErrDOM": {
+      "message": "La structure de la page Drive n'étant pas conforme, cette fonctionnalité sera indisponible."
+   },
+   "popupErrExtensionConflict": {
+      "message": "\u003Cstrong>Cette extension est désactivée\u003C/strong> car elle a détecté une autre extension AODocs. Si vous souhaitez l'utiliser, désactivez l'extension AODocs \u003Cstrong>$extensionName$\u003C/strong>.",
+      "placeholders": {
+         "extensionName": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupErrGridView": {
+      "message": "Mode Grille non supporté, \u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"switchToListView\" data-close>veuillez utiliser le mode Liste\u003C/a>"
+   },
+   "popupErrNoUser": {
+      "message": "Impossible de déterminer l'utilisateur courant.\u003Cbr/>Veuillez essayer les actions suivantes :\u003Cul>\u003Cli>Rafraîchir votre page\u003C/li>\u003Cli>\u003Ca href=\"https://plus.google.com/communities/115205398759066781480\" target=\"_blank\">Obtenez l'aide de la communauté\u003C/a>\u003C/li>\u003C/ul>"
+   },
+   "popupErrNotAuthorize": {
+      "message": "AwesomeDrive ne dispose pas des autorisations nécessaires.\u003Cbr/>\u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"reload\">Ré-afficher la demande d'autorisations\u003C/a>"
+   },
+   "popupErrUnexpected": {
+      "message": "Une erreur inattendue est survenue lors de l'initialisation de AwesomeDrive.\u003Cbr/>Veuillez nous excuser pour la gêne occasionnée."
+   },
+   "popupGetHelp": {
+      "message": "Obtenir de l'aide"
+   },
+   "popupInitializing": {
+      "message": "Attente des autorisations nécessaires...\u003Cbr/>\u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"reload\">Ré-afficher la demande d'autorisations\u003C/a>"
+   },
+   "popupInstallUfo": {
+      "message": "Installer UFO"
+   },
+   "popupNewOfficeFile": {
+      "message": "Création de fichiers MS Office"
+   },
+   "popupNotInitialized": {
+      "message": "L'initialisation AwesomeDrive n'a pas encore débuté.\u003Cbr/>Merci de patienter quelques instants.\u003Cbr/>En cas de problème, essayez de recharger votre page."
+   },
+   "popupOpenFile": {
+      "message": "Ouverture de tout type de fichiers"
+   },
+   "popupPrevious": {
+      "message": "Précédent"
+   },
+   "popupReload": {
+      "message": "Recharger"
+   },
+   "popupSaveSettingsFail": {
+      "message": "Impossible d'enregistrer les modifications"
+   },
+   "popupSettings": {
+      "message": "Options"
+   },
+   "popupStatus": {
+      "message": "État"
+   },
+   "popupWarnDOM": {
+      "message": "La structure de la page Drive n'étant pas conforme, cette fonctionnalité peut être indisponible."
+   },
+   "popupWelcomeTour": {
+      "message": "Visite guidée"
+   },
+   "powerpointAppName": {
+      "message": "Microsoft Office Powerpoint"
+   },
+   "powerpointDialogFileNameInputPlaceholder": {
+      "message": "Nom du document Powerpoint"
+   },
+   "settingsPageTitle": {
+      "message": "AwesomeDrive - Options"
+   },
+   "shortName": {
+      "message": "AwesomeDrive"
+   },
+   "visioAppName": {
+      "message": "Microsoft Office Visio"
+   },
+   "webDavExernalNoEditRights": {
+      "message": "Vous n'êtes pas autorisé à modifier ce fichier, ouverture en lecture seule..."
+   },
+   "webDavExternalFailedQuota": {
+      "message": "Échec de l'ouverture, vous avez atteint le quota journalier d'édition de fichiers MS Office non gérés par AODocs"
+   },
+   "webDavExternalSizeWarning": {
+      "message": "Édition de fichier volumineux. Si vous ajoutez trop de contenu vous ne pourrez pas le sauvegarder (taille max: 32Mo)"
+   },
+   "webDavFailed": {
+      "message": "Échec de l'ouverture. Impossible de récupérer l'url du document Office"
+   },
+   "webDavFailedTooLarge": {
+      "message": "Échec de l'ouverture, le fichier est trop volumineux (> 32Mo). Veuillez le télécharger / ré-importer afin de l'éditer"
+   },
+   "webDavFailedUnauthorized": {
+      "message": "Vous n'êtes pas autorisé à modifier ce fichier"
+   },
+   "webDavUnsupportedOS": {
+      "message": "Votre système d'exploitation n'est pas supporté. \u003Ca href=\"http://bit.ly/1EU55Bk\" target=\"_blank\">Voir la liste des systèmes supportés.\u003C/a>"
+   },
+   "webdavMalformedName": {
+      "message": "Échec de l'ouverture, le nom du fichier n'est pas valide. Vérifiez qu'il se termine par une extension MS Office valide"
+   },
+   "webdavOpened": {
+      "message": "Votre document va s'ouvrir. Dans le cas contraire, vérifiez que vous avez une \u003Ca href=\"http://bit.ly/1EU55Bk\" target=\"_blank\">version supportée de Microsoft Office\u003C/a> installée."
+   },
+   "welcomeCreateOfficeText": {
+      "message": "Ouvrez le menu “NOUVEAU” de Google Drive et créez un nouveau fichier Word, Excel ou PowerPoint en un clic."
+   },
+   "welcomeCreateOfficeTitle": {
+      "message": "Créez des fichiers Microsoft Office"
+   },
+   "welcomeOpenFileText": {
+      "message": "Plus besoin de télécharger puis de remettre en ligne vos fichiers Drive. Ouvrez, éditez et sauvegardez les en un clic !"
+   },
+   "welcomeOpenFileTitle": {
+      "message": "Ouvrez tout type de fichier"
+   },
+   "welcomePageActionText": {
+      "message": "Cliquez sur l'icône AwesomeDrive pour obtenir des informations de status et des liens utiles."
+   },
+   "welcomePageActionTitle": {
+      "message": "AwesomeDrive dans votre navigateur"
+   },
+   "welcomeWelcomeText": {
+      "message": "Parcourez les pages suivantes pour découvrir les fonctionnalités ajoutées par AwesomeDrive à votre Google Drive !"
+   },
+   "welcomeWelcomeTitle": {
+      "message": "Bienvenue dans AwesomeDrive !"
+   },
+   "wordAppName": {
+      "message": "Microsoft Office Word"
+   },
+   "wordDialogFileNameInputPlaceholder": {
+      "message": "Nom du document Word"
+   }
+}

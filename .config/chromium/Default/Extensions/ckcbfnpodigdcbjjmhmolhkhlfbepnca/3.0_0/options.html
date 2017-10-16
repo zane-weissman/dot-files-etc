@@ -1,0 +1,52 @@
+<html>
+  <head><title>Google Drive Quick Create Extension Options</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/options.js"></script>
+  </head>
+  <body>
+    <h1>Google Drive Quick Create Extension</h1>
+    <p><i>Below are optional settings to create quick links for multiple Google App domains and custom templates.</i></p>
+    <h2>Add Google Apps domains</h2>
+    <p>Specify your Google Apps domains (ie. google.com, or the user number from the URL of the alternate Google account such as "1"):</p>
+    <div><div class="label">Domain or User Number: </div><input type="text" name="domain1" id="domain1" /></div>
+    <div><div class="label">Domain or User Number: </div><input type="text" name="domain2" id="domain2" /></div>
+    <div><div class="label">Domain or User Number: </div><input type="text" name="domain3" id="domain3" /></div>
+    <div><div class="label">Domain or User Number: </div><input type="text" name="domain4" id="domain4" /></div>
+    <div><div class="label">Domain or User Number: </div><input type="text" name="domain5" id="domain5" /></div>
+    <div><button class="save">Save All</button></div>
+    <h2>Add Custom Template Shortcuts (requires a little bit of work to setup)</h2>
+    <p>Follow the following instructions to get the necessary values for below:</p>
+    <ol>
+      <li>Go to the Google Docs Template Gallery (https://drive.google.com/templates?view=author or https://drive.google.com/a/your-domain-here.com/templates?view=domain)</li>
+      <li>View the source of the page and search for <i>&#60;div class="templates-entry-actions"></i></li>
+      <li>Right after that <i>&#60;div></i> is a form that contains all the values you need</li>
+    </ol>
+    <p>Example values: https://drive.google.com/a/mydomain.com/usetemplate?id=1dbDgG31BmisjHwGAL3R7RfzZK7NkvAytnM-9nLxnRZc&category=Letters&mode=domain&type=docs&token=QhGujDcBAAA.jn8mn9GSi-Qt8Hvqcpznag.tZH5cbyx5keCoAFUXoVUPQ).</p>
+    <h3>Template 1</h3>
+    <div><div class="label">Domain (optional): </div><input type="text" name="templateDomain1" id="templateDomain1"/></div>
+    <div><div class="label">Name: </div><input type="text" name="name1" id="name1"/></div>
+    <div><div class="label">ID: </div><input type="text" name="id1" id="id1"/></div>
+    <div><div class="label">Category: </div><input type="text" name="category1" id="category1"/></div>
+    <div><div class="label">Mode: </div><input type="text" name="mode1" id="mode1"/></div>
+    <div><div class="label">Type: </div><input type="text" name="type1" id="type1"/></div>
+    <div><div class="label">Token: </div><input type="text" name="token1" id="token1"/></div>
+    <h3>Template 2</h3>
+    <div><div class="label">Domain (optional): </div><input type="text" name="templateDomain2" id="templateDomain2"/></div>
+    <div><div class="label">Name: </div><input type="text" name="name2" id="name2"/></div>
+    <div><div class="label">ID: </div><input type="text" name="id2" id="id2"/></div>
+    <div><div class="label">Category: </div><input type="text" name="category2" id="category2"/></div>
+    <div><div class="label">Mode: </div><input type="text" name="mode2" id="mode2"/></div>
+    <div><div class="label">Type: </div><input type="text" name="type2" id="type2"/></div>
+    <div><div class="label">Token: </div><input type="text" name="token2" id="token2"/></div>
+    <h3>Template 3</h3>
+    <div><div class="label">Domain (optional): </div><input type="text" name="templateDomain3" id="templateDomain3"/></div>
+    <div><div class="label">Name: </div><input type="text" name="name3" id="name3"/></div>
+    <div><div class="label">ID: </div><input type="text" name="id3" id="id3"/></div>
+    <div><div class="label">Category: </div><input type="text" name="category3" id="category3"/></div>
+    <div><div class="label">Mode: </div><input type="text" name="mode3" id="mode3"/></div>
+    <div><div class="label">Type: </div><input type="text" name="type3" id="type3"/></div>
+    <div><div class="label">Token: </div><input type="text" name="token3" id="token3"/></div>
+    <div><button class="save">Save All</button></div>
+  </body>
+</html>

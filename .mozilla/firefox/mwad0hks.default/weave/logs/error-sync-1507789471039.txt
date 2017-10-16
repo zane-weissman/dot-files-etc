@@ -1,0 +1,41 @@
+1507789470972	Sync.Service	DEBUG	User-Agent: Firefox/55.0.2 (Linux x86_64) FxSync/1.57.0.20170816210634.desktop
+1507789470973	Sync.Service	INFO	Starting sync at 2017-10-12 02:24:30 in browser session ts8g4hcA_DvG
+1507789470973	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1507789470974	Sync.Telemetry	TRACE	observed weave:service:sync:start 
+1507789470979	Sync.Status	INFO	Resetting Status.
+1507789470979	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1507789470982	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1507789470993	Sync.AsyncResource	WARN	GET request to https://sync-427-us-west-2.sync.services.mozilla.com/1.5/62268718/info/collections failed: [Exception... "NS_ERROR_UNKNOWN_HOST"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "JS frame :: resource://services-sync/resource.js :: Channel_onStopRequest :: line 422"  data: no] Stack trace: Channel_onStopRequest()@resource://services-sync/resource.js:422 < waitForSyncCallback()@resource://services-common/async.js:98 < makeSpinningCallback/callback.wait()@resource://services-common/async.js:168 < promiseSpinningly()@resource://services-common/async.js:234 < _fetchInfo()@resource://services-sync/service.js:470 < sync()@resource://services-sync/stages/enginesync.js:79 < onNotify()@resource://services-sync/service.js:1081 < WrappedNotify()@resource://services-sync/util.js:160 < WrappedLock()@resource://services-sync/util.js:116 < _lockedSync()@resource://services-sync/service.js:1071 < sync/<()@resource://services-sync/service.js:1063 < WrappedCatch()@resource://services-sync/util.js:91 < sync()@resource://services-sync/service.js:1052
+1507789470997	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1507789470997	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1507789470999	Sync.SyncScheduler	DEBUG	Next sync in 90000 ms.
+1507789471000	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "NS_ERROR_UNKNOWN_HOST"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "JS frame :: resource://services-sync/resource.js :: Channel_onStopRequest :: line 422"  data: no] Stack trace: Channel_onStopRequest()@resource://services-sync/resource.js:422 < waitForSyncCallback()@resource://services-common/async.js:98 < makeSpinningCallback/callback.wait()@resource://services-common/async.js:168 < promiseSpinningly()@resource://services-common/async.js:234 < _fetchInfo()@resource://services-sync/service.js:470 < sync()@resource://services-sync/stages/enginesync.js:79 < onNotify()@resource://services-sync/service.js:1081 < WrappedNotify()@resource://services-sync/util.js:160 < WrappedLock()@resource://services-sync/util.js:116 < _lockedSync()@resource://services-sync/service.js:1071 < sync/<()@resource://services-sync/service.js:1063 < WrappedCatch()@resource://services-sync/util.js:91 < sync()@resource://services-sync/service.js:1052
+1507789471006	Sync.Telemetry	TRACE	observed weave:service:sync:error 
+1507789471012	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "NS_ERROR_UNKNOWN_HOST"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "JS frame :: resource://services-sync/resource.js :: Channel_onStopRequest :: line 422"  data: no] Stack trace: Channel_onStopRequest()@resource://services-sync/resource.js:422 < waitForSyncCallback()@resource://services-common/async.js:98 < makeSpinningCallback/callback.wait()@resource://services-common/async.js:168 < promiseSpinningly()@resource://services-common/async.js:234 < _fetchInfo()@resource://services-sync/service.js:470 < sync()@resource://services-sync/stages/enginesync.js:79 < onNotify()@resource://services-sync/service.js:1081 < WrappedNotify()@resource://services-sync/util.js:160 < WrappedLock()@resource://services-sync/util.js:116 < _lockedSync()@resource://services-sync/service.js:1071 < sync/<()@resource://services-sync/service.js:1063 < WrappedCatch()@resource://services-sync/util.js:91 < sync()@resource://services-sync/service.js:1052
+1507789471032	Sync.ErrorHandler	DEBUG	Addons installed: 26
+1507789471032	Sync.ErrorHandler	DEBUG	 - NetVideoHunter, version 1.20, id netvideohunter@netvideohunter.com
+1507789471032	Sync.ErrorHandler	DEBUG	 - Location Bar Enhancer, version 5.3, id UIEnhancer@girishsharma
+1507789471033	Sync.ErrorHandler	DEBUG	 - Private Browsing Personas, version 0.1.1-signed.1-signed, id pbm-personas@dactyl.googlecode.com
+1507789471033	Sync.ErrorHandler	DEBUG	 - Back to Close, version 1.11.1-signed.1-signed, id backtoclose@chrismcgarry.co.uk
+1507789471033	Sync.ErrorHandler	DEBUG	 - Lightweight Themes Manager, version 0.2.1-signed.1-let-fixed.1-signed, id lwthemes-manager@loucypher
+1507789471033	Sync.ErrorHandler	DEBUG	 - Omnibar, version 0.7.28.20141004.1-signed.1-signed, id omnibar@ajitk.com
+1507789471034	Sync.ErrorHandler	DEBUG	 - DOM Inspector, version 2.0.16.1-signed, id inspector@mozilla.org
+1507789471034	Sync.ErrorHandler	DEBUG	 - Click to play switch, version 1.0.1-signed.1-signed, id clicktoplaybutton@bleupomme.net
+1507789471034	Sync.ErrorHandler	DEBUG	 - KeePass Helper, version 3.0.2.1-signed.1-signed, id bughunter2@hostnameintitlebar
+1507789471034	Sync.ErrorHandler	DEBUG	 - NoUn Buttons, version 1.1.4.1.1-signed.1-signed, id {99f30549-35d4-11d9-8a2a-396c6e707e82}
+1507789471035	Sync.ErrorHandler	DEBUG	 - Tabs on Bottom, version 0.7.3, id tabsonbottom@piro.sakura.ne.jp
+1507789471035	Sync.ErrorHandler	DEBUG	 - Stylish, version 2.0.7, id {46551EC9-40F0-4e47-8E18-8E5CF550CFB8}
+1507789471035	Sync.ErrorHandler	DEBUG	 - NewScrollbars (aka NoiaScrollbars), version 1.2.8, id NoiaScrollbars@ArisT2_Noia4dev
+1507789471035	Sync.ErrorHandler	DEBUG	 - New Tab Homepage, version 0.5.3, id {66E978CD-981F-47DF-AC42-E3CF417C1467}
+1507789471036	Sync.ErrorHandler	DEBUG	 - Vimperator, version 3.16.0, id vimperator@mozdev.org
+1507789471036	Sync.ErrorHandler	DEBUG	 - Location Guard, version 1.2.3, id jid1-HdwPLukcGQeOSh@jetpack
+1507789471036	Sync.ErrorHandler	DEBUG	 - TinEye Reverse Image Search, version 1.3.2, id tineye@ideeinc.com
+1507789471036	Sync.ErrorHandler	DEBUG	 - HttpRequester, version 2.2, id {ea4637dc-e014-4c17-9c2c-879322d23268}
+1507789471037	Sync.ErrorHandler	DEBUG	 - KeeFox, version 1.7.2, id keefox@chris.tomlinson
+1507789471037	Sync.ErrorHandler	DEBUG	 - Ubuntu Modifications, version 3.4, id ubufox@ubuntu.com
+1507789471037	Sync.ErrorHandler	DEBUG	 - Tree Style Tab, version 0.19.2017090601, id treestyletab@piro.sakura.ne.jp
+1507789471037	Sync.ErrorHandler	DEBUG	 - Disable Ctrl-Q Shortcut, version 20120821.1-signed.1-signed, id dcqs@moongiraffe.net
+1507789471038	Sync.ErrorHandler	DEBUG	 - Reddit Enhancement Suite, version 5.8.6, id jid1-xUfzOsOFlzSOXg@jetpack
+1507789471038	Sync.ErrorHandler	DEBUG	 - Classic Theme Restorer, version 1.7.1, id ClassicThemeRestorer@ArisT2Noia4dev
+1507789471038	Sync.ErrorHandler	DEBUG	 - Greasemonkey, version 3.17, id {e4a8a97b-f2ed-450b-b12d-ee082ba24781}
+1507789471038	Sync.ErrorHandler	DEBUG	 - uBlock Origin, version 1.14.14, id uBlock0@raymondhill.net

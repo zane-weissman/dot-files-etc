@@ -1,0 +1,19 @@
+{
+   "background": {
+      "scripts": [ "bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon_32x32.png",
+      "default_title": ""
+   },
+   "description": "Access Dropbox on Chrome within a snap",
+   "icons": {
+      "128": "icon_128x128.png",
+      "16": "icon_16x16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcmAwabqH58yH2hXBq1gSNd/A3/XbSbhTs4U7dADkoKUbrqaC71DS+2zP0m+9ao3QUljp/KhoFv1jq2N+NwCRHSqJDFxVIdg31HxjmphUklExXY+LfRHjZZa3Zu6UZxM3dKP0oLWCNa8nLHyJ5n5cj//7hLJrKiF1YOCSrXxbJPwIDAQAB",
+   "manifest_version": 2,
+   "name": "Dropbox Shortcut",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

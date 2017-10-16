@@ -1,0 +1,213 @@
+{
+   "accessAppName": {
+      "message": "Microsoft Office Access"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "close": {
+      "message": "Fechar"
+   },
+   "create": {
+      "message": "Criar"
+   },
+   "createOfficeFileDialogTitle": {
+      "message": "Novo arquivo do Microsoft Office"
+   },
+   "dialogNotesTitle": {
+      "message": "\u003Cu>Nota\u003C/u>:"
+   },
+   "excelAppName": {
+      "message": "Microsoft Office Excel"
+   },
+   "excelDialogFileNameInputPlaceholder": {
+      "message": "Nome del documento Excel"
+   },
+   "extensionChanged": {
+      "message": "A extensão AwesomeDrive foi atualizada ou desinstalada. \u003Ca href=\"#\" class=\"apply-ext-changes\">A página deve ser atualizada\u003C/a> para que as atualizações se apliquem"
+   },
+   "gridViewError": {
+      "message": "$extensionName$ - A exibição em Grade não é suportada, \u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"switchToListView\" data-close>favor mudar para a exibição em Lista\u003C/a>",
+      "placeholders": {
+         "extensionName": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "AwesomeDrive para Google Drive"
+   },
+   "newExcelMenuItem": {
+      "message": "Documento Excel"
+   },
+   "newFileFailed": {
+      "message": "Falha ao criar novo arquivo no Drive"
+   },
+   "newFileInProgress": {
+      "message": "Criação de um novo arquivo em curso..."
+   },
+   "newOfficeDocFailed": {
+      "message": "Não foi possível criar o documento \u003Cspan class=\"ao-capitalize\">$officeSoftware$\u003C/span> \"$docName$\"",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         },
+         "officeSoftware": {
+            "content": "$2"
+         }
+      }
+   },
+   "newOfficeDocInProgress": {
+      "message": "Criando \u003Cspan class=\"ao-capitalize\">$officeSoftware$\u003C/span> documento \"$docName$\"...",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         },
+         "officeSoftware": {
+            "content": "$2"
+         }
+      }
+   },
+   "newOfficeDocSuccess": {
+      "message": "O documento \"$docName$\" foi criado corretamente, logo ele aparecerá na sua pasta",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         }
+      }
+   },
+   "newOfficeDocSuccessWebdav": {
+      "message": "Documento \"$docName$\" criado com êxito, deverá abrir com Microsoft \u003Cspan class=\"ao-capitalize\">$officeSoftware$\u003C/span> logo",
+      "placeholders": {
+         "docName": {
+            "content": "$1"
+         },
+         "officeSoftware": {
+            "content": "$2"
+         }
+      }
+   },
+   "newPowerpointMenuItem": {
+      "message": "Documento Powerpoint"
+   },
+   "newWordMenuItem": {
+      "message": "Documento Word"
+   },
+   "oauthFailureDetail": {
+      "message": "AwesomeDrive não foi autorizada. Atualize a sua página Google Drive para exibir novamente a autorização da página."
+   },
+   "oauthFailureTitle": {
+      "message": "Autorização recusada"
+   },
+   "oauthSuccessDetail": {
+      "message": "AwesomeDrive está agora disponível na sua página do Google Drive."
+   },
+   "oauthSuccessTitle": {
+      "message": "AwesomeDrive autorizada"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "openFileTooltip": {
+      "message": "Abrir o arquivo"
+   },
+   "or": {
+      "message": "ou"
+   },
+   "pageActionTitle": {
+      "message": "AwesomeDrive"
+   },
+   "popupCloseSettings": {
+      "message": "Fechar"
+   },
+   "popupDisabledFeature": {
+      "message": "Esta funcionalidade não está ativada nas suas configurações"
+   },
+   "popupErrDOM": {
+      "message": "A página Drive parece ser inválida. Esta funcionalidade não deve estar disponível."
+   },
+   "popupErrGridView": {
+      "message": "A exibição em Grade não é suportada, \u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"switchToListView\" data-close>favor mudar para a exibição em Lista\u003C/a>"
+   },
+   "popupErrNoUser": {
+      "message": "Falha ao identificar o atual usuário.\u003Cbr/>Favor tentar o seguinte:\u003Cul>\u003Cli>Recarregue sua página\u003C/li>\u003Cli>\u003Ca href=\"https://plus.google.com/communities/115205398759066781480\" target=\"_blank\">Obte ajuda da comunidade\u003C/a>\u003C/li>\u003C/ul>"
+   },
+   "popupErrNotAuthorize": {
+      "message": "AwesomeDrive não possui a permissões necessárias.\u003Cbr/>\u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"reload\">Reabrir página de permissões\u003C/a>"
+   },
+   "popupErrUnexpected": {
+      "message": "Ocorreu um erro inesperado durante a inicialização da AwesomeDrive. Pedimos desculpas pelo inconveniente."
+   },
+   "popupInitializing": {
+      "message": "Na espera de permissões necessárias para a inicialização da AwesomeDrive...\u003Cbr/>\u003Ca href=\"#\" class=\"popup-lnk\" data-action=\"reload\">Reabrir página de permissões\u003C/a>"
+   },
+   "popupNewOfficeFile": {
+      "message": "Criar arquivos do MS Office"
+   },
+   "popupNotInitialized": {
+      "message": "A inicialização da AwesomeDrive ainda não começou.\u003Cbr/>Favor esperar alguns instantes ou tente recarregar sua página do Drive."
+   },
+   "popupOpenFile": {
+      "message": "Abrir todos tipos de arquivos"
+   },
+   "popupPrevious": {
+      "message": "Voltar"
+   },
+   "popupReload": {
+      "message": "Recarregar"
+   },
+   "popupSaveSettingsFail": {
+      "message": "Impossível de salvas as midificações"
+   },
+   "popupSettings": {
+      "message": "Opções"
+   },
+   "popupStatus": {
+      "message": "Estado"
+   },
+   "popupWarnDOM": {
+      "message": "A página Drive parece ser inválida. Esta funcionalidade não deve estar disponível."
+   },
+   "powerpointAppName": {
+      "message": "Microsoft Office Powerpoint"
+   },
+   "powerpointDialogFileNameInputPlaceholder": {
+      "message": "Nome del documento Powerpoint"
+   },
+   "settingsPageTitle": {
+      "message": "AwesomeDrive - Opções"
+   },
+   "shortName": {
+      "message": "AwesomeDrive"
+   },
+   "visioAppName": {
+      "message": "Microsoft Office Visio"
+   },
+   "webDavExernalNoEditRights": {
+      "message": "Você não tem permissões suficientes para editar este arquivo. Abertura em modo leitura..."
+   },
+   "webDavExternalFailedQuota": {
+      "message": "Falha ao abrir, você atingiu a cota diária para edição de arquivos no AODocs MS Office"
+   },
+   "webDavExternalSizeWarning": {
+      "message": "Edição de arquivo grande. Se muito conteúdo é adicionado, você não poderá salvar (tamanho máximo: 32MB)"
+   },
+   "webDavFailed": {
+      "message": "Falha ao abrir. Impossível de recuperar o link do document Office"
+   },
+   "webDavFailedTooLarge": {
+      "message": "Erro ao abrir, o arquivo é muito grande (> que 32MB). Favor realizar um download / upload para editar o arquivo"
+   },
+   "webDavFailedUnauthorized": {
+      "message": "Você não tem permissões para modificar este arquivo"
+   },
+   "webdavMalformedName": {
+      "message": "Erro ao abrir, o nome do arquivo não é válido. Verifique se termina com uma extensão válida do MS Office"
+   },
+   "wordAppName": {
+      "message": "Microsoft Office Word"
+   },
+   "wordDialogFileNameInputPlaceholder": {
+      "message": "Nome del documento Word"
+   }
+}

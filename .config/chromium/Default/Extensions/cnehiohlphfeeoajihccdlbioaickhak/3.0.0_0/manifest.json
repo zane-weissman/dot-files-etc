@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "eventPage.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icon19-bl.png",
+         "38": "icon38-bl.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16-bl.png",
+      "64": "icon64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDhZDxMaf0vPLHHypE5c0Uct+3HMvQyByzjpfvEHi4fuV0yLjnGXK1aTkIxV0KlH3x0wF6SLDazefyqgBneQgZUOGpLgvV0QSGjpf6VVXMSTMf1qQgSiHBqjqjk9LdZyVQQid2TbGInbh2lQO+9AibUX32XpsvwsIEfG4q18RoLAwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "tabs", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.0"
+}

@@ -1,0 +1,8 @@
+[Data]
+Name=Mint-X
+Thumbnail=/home/zane/.config/XfceThemeManager/meta/Mint-X.png
+GtkTheme=Mint-X
+Xfwm4Theme=Mint-X
+IconTheme=Mint-X
+CursorTheme=default
+

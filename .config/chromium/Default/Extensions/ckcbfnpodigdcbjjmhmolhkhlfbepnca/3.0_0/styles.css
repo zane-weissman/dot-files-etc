@@ -1,0 +1,69 @@
+body {
+  min-width:150px;
+  overflow-x:hidden;
+  color: #333;
+  font-size: 13px;
+  font-family: Arial,sans-serif;
+}
+img {
+  margin:5px;
+  border:2px solid black;
+  vertical-align:middle;
+  width:75px;
+  height:75px;
+}
+.document {
+  background: url("images/document.png") no-repeat;
+}
+.presentation {
+  background: url("images/presentation.png") no-repeat;
+}
+.spreadsheet {
+  background: url("images/spreadsheet.png") no-repeat;
+}
+.form {
+  background: url("images/form.png") no-repeat;
+}
+.drawing {
+  background: url("images/drawing.png") no-repeat;
+}
+.folder {
+  background: url("images/folder.png") no-repeat;
+}
+ul {
+  padding-left:0px;
+}
+ol li{
+  list-style-type: decimal;
+}
+li {
+  list-style-type: none; 
+  padding-left: 20px;
+  cursor: pointer;
+  padding-bottom:8px;
+}
+a {
+  text-decoration: none;
+}
+a:visited, a:hover, a:active, a:link {
+  color: #333;
+}
+.save {
+  margin-top: 20px;
+  font-size: 20px;
+}
+h2 {
+  margin-top: 30px;
+}
+.label {
+  width: 170px;
+  float: left;
+  font-weight: bold;
+}
+input {
+  height: 20px;
+  position: relative;
+  bottom: 2px;
+  margin-bottom: 5px;
+  width: 325px;
+}

@@ -1,0 +1,84 @@
+#httprequester-window {
+   min-width: 450px;
+   width: 1200px;
+   height: 768px;
+   overflow: auto;
+}
+
+caption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+#statusHeading {
+    font-weight: bold;
+}
+
+/* set tooltip max-width to none so that it does not crop when it gets too large */
+#httprequesterTooltip {
+    max-width: none;
+}
+
+#httprequesterSidebar {
+   overflow: scroll;
+}
+
+#sidebar {
+   max-width: none !important;
+}
+
+page,window,dialog {
+   font-size: 80%;
+   font-family: Arial, Helvetica, Sans-Serif;
+}
+
+row {
+   -moz-box-align: center;
+}
+
+
+p.label {
+   margin: 0pt;
+   padding: 2pt;
+   font-weight: bold;
+}
+
+/* ensure that the request section (and request Url box) are a minimum width at startup */
+#requestbox {
+    width: 400px;
+}
+#response {
+   min-width: 500px;
+   min-height: 500px;
+}
+
+#response #content {
+   font-family: monospace;
+   font-size: 110%;
+   min-width: 400px;
+   min-height: 300px;
+}
+
+.small-buttons1 button {
+   font-size: 75%;
+}
+
+.medium-buttons button {
+    padding: 0pt;
+}
+
+#about {
+   min-height: 250px;
+   min-width: 300px;
+   width: 300px;
+}
+
+#response #title {
+   padding: 0.2em;
+   padding-left: 0.5em;
+}
+
+/* set background browser to white; by default it is ugly gray */
+#browserIframe {
+    background-color: white;
+}

@@ -1,0 +1,15 @@
+skin    browser       LavaFox_V1 jar:chrome/Lfox.jar!/browser/
+skin    communicator  LavaFox_V1 jar:chrome/Lfox.jar!/communicator/
+skin    global        LavaFox_V1 jar:chrome/Lfox.jar!/global/
+skin    mozapps       LavaFox_V1 jar:chrome/Lfox.jar!/mozapps/
+
+skin    os_target       LavaFox_V1 jar:chrome/Lfox.jar!/os_target/common/
+skin    os_target       LavaFox_V1 jar:chrome/Lfox.jar!/os_target/linux/ os=Linux
+
+skin	app_version     LavaFox_V1 jar:chrome/Lfox.jar!/app_version/3/ appversion<4.0b7
+skin	app_version     LavaFox_V1 jar:chrome/Lfox.jar!/app_version/4/ appversion>4.0b6
+skin	app_version     LavaFox_V1 jar:chrome/Lfox.jar!/app_version/6/ appversion>=5.0
+skin	app_version     LavaFox_V1 jar:chrome/Lfox.jar!/app_version/28/ appversion>=29.0a1
+
+skin  os_target LavaFox_V1 jar:chrome/Lfox.jar!/os_target/XP/ os=WINNT osversion<6
+skin  os_target LavaFox_V1 jar:chrome/Lfox.jar!/os_target/Win7/ os=WINNT osversion>=6

@@ -1,0 +1,122 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zW9/iGW+EVXZDVWmKo1ddg==
+SHA1-Digest: 5iLVxOD52p2VRdK0lACssDPn58A=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: be8V9ng/zdANEbMD5lLSLQ==
+SHA1-Digest: HZHdYJmihjz+e6Aq/vd1cT14FM4=
+
+Name: chrome/icons/default/httprequester-window.ico
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: syMj2uMUwMY/1KcFuYl3ag==
+SHA1-Digest: FLYaBYD/K0xC2z/zx7tlBV4zDBg=
+
+Name: chrome/icons/default/httprequester-window.xpm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Ii01Nx7BtHJhYf1UGCabiQ==
+SHA1-Digest: gZfdz1PAqjVSdTl5q5/qQxd6EKM=
+
+Name: content/about.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oNzMEN6O2pjdyPBuve7QQw==
+SHA1-Digest: Nis6JaCTkYaLhLWDN+JP3VDz8Ng=
+
+Name: content/Base64.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8SGTgIgYMWnyQ65InTlOrg==
+SHA1-Digest: R+h94FdrgAN19Um/Poil1kzWB8c=
+
+Name: content/google-login.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3bUYVUdWNrdeKRbVmBhvnA==
+SHA1-Digest: IJbJsaJ/PrwarJGTEGyoihGksZE=
+
+Name: content/GoogleLogin.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: J8H2djk8RJd1lsG2UC4kZw==
+SHA1-Digest: YPZ7HV2OBj0+P3P1UpYeKRTHMXY=
+
+Name: content/HTTP.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VMKGUsxwLwelUXFSFrZNMA==
+SHA1-Digest: pt452w1u0Tn1BuV3xcVTcsjw77I=
+
+Name: content/httprequester-window.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JZF5rS2FSvA4woDJVdi0SA==
+SHA1-Digest: nZ58Bjeos9RJCY4L15logoYBoJc=
+
+Name: content/httprequester.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yk4xvYc4bZ2fDW6QGHzC5A==
+SHA1-Digest: SNKFKpRy3GHHzQlfkV8dkmul+xY=
+
+Name: content/loadRequest.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dgxa17gUblIeaQJr1rpxVQ==
+SHA1-Digest: d6nHJOuWMOK63L5vYpxnZcV++Hc=
+
+Name: content/loadRequest.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Zp8mDyo5tvBM5G7LOr4nXA==
+SHA1-Digest: WgqcoCFKUeT6CSy60rnNQAMIBLE=
+
+Name: content/overlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: f19R40xxjBIhdVYjgvaAMg==
+SHA1-Digest: UIEHVJ0wgiuOWpQOWeKBT+Lk5l4=
+
+Name: content/overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QFbW52xBCMIhEMW+2MPaWg==
+SHA1-Digest: pT47pzDcFjnbjUj1qWHvAm/dV5k=
+
+Name: content/progress.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8kIPWGfXYd+jsSXSXhIk0g==
+SHA1-Digest: Dg5iqnhWpMfqAZYTdfjeXnY4ZD4=
+
+Name: content/request-entry.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lQHiDk+pBu9eAVS9GHablQ==
+SHA1-Digest: 7VZD7Bzmd7nBgO//cwG+/pYGBHA=
+
+Name: content/request-entry.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: W6fKY50xZg3v9TaOGJgt5g==
+SHA1-Digest: qgsrWVzXZEK8Ag+dF6Mjz13X/P8=
+
+Name: content/Response.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 04Xm7uwSfERmT2DS04Iz1g==
+SHA1-Digest: DC/wuPQrviDjE9aZbL96z3NM2v0=
+
+Name: defaults/preferences/defaults.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TSda85fLh86LolHztvJjbw==
+SHA1-Digest: jSenT8ZI7r8PIsnaSjy6TYCZpTM=
+
+Name: skin/default.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BQ/vEht5zvpeiPedmYpR9Q==
+SHA1-Digest: WmYZBq9Cw0AIrakO+2FKDurOQpY=
+
+Name: skin/httprequester.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4XQXtzkw4C71Fbxr4VAHOQ==
+SHA1-Digest: Mq8l135hPeKbaHIZlh2MDn26M/I=
+
+Name: skin/httprequester16x16.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: V2fa5i3Si/EbMSGn3RYvYg==
+SHA1-Digest: bBUcLIE45fetz2lpcRacKHksJWg=
+
+Name: skin/overlay.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Hat7qgztn3ecq4hXKaL3PA==
+SHA1-Digest: 6azgQaxDEy9qD/+RgbL0M73fmjo=
+

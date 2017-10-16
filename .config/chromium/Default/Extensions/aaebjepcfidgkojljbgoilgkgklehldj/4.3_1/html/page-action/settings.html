@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title i18n="settingsPageTitle"></title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="/css/common/common.css">
+<link rel="stylesheet" type="text/css" href="/css/page-action/popup.css">
+<link rel="stylesheet" type="text/css" href="/css/page-action/settings.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700">
+<script src="/module/common/common.bundle.js"></script>
+<script src="/vendor/vendor.bundle.js"></script>
+<script src="/module/page-action/settings.bundle.js"></script>
+</head>
+<body>
+<div class="header">
+<span class="close" i18n-title="popupCloseSettings">&times;</span>
+<div class="line">
+<img class="logo" src="/img/page-action/awesome-drive-logo.svg">
+<div class="logo-text">AODocs | AwesomeDrive</div>
+</div>
+</div>
+<div class="body">
+<div class="title" i18n="popupSettings"></div>
+<div class="settings">
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<label for="createOfficeFile" i18n="popupNewOfficeFile"></label>
+</td>
+<td>
+<input id="createOfficeFile" type="checkbox" hidden checked>
+<label for="createOfficeFile" class="switch"></label>
+</td>
+</tr>
+<tr>
+<td>
+<label for="openFile" i18n="popupOpenFile"></label>
+</td>
+<td>
+<input id="openFile" type="checkbox" hidden checked>
+<label for="openFile" class="switch"></label>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="footer">
+<span class="footer-left">
+<a class="back">
+<img src="/img/page-action/back.svg">
+<span i18n="popupPrevious"></span>
+</a>
+</span>
+</div>
+</body>
+</html>

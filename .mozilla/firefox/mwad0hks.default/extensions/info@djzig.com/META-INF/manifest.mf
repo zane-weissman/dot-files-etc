@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: t+YpfbYzj1h6+TtFdpoY4Q==
+SHA1-Digest: XdBFynRzMmJchDyxG7Fb7iIKwXw=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ECm+HVUcwy9PFcJFhSWMaQ==
+SHA1-Digest: PJBmbz32SFNSXiBtAONbf2TiizM=
+
+Name: icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rToVBMHGcP/0NDfY3N6hJA==
+SHA1-Digest: pXYue0MX3yAsudpOONyL0oIRvOQ=
+
+Name: preview.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qk5rd6ksecSGjXEt6kcZIQ==
+SHA1-Digest: B+XKaOQHAmwbycFgIwzCef1GYqA=
+
+Name: READ ME  IMPORTANT.txt
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: u/uyipEKaisARlX53clytw==
+SHA1-Digest: 9Pa3gLZX+anTvJISr3Wqm2zMRRA=
+
+Name: chrome/Lfox.jar
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oQ2WGdQosBc7Kg5SrRPvfg==
+SHA1-Digest: koIE+3Gp86F50EUqcGKObqevDCs=
+

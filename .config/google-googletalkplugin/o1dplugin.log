@@ -1,0 +1,127 @@
+[000:000] Cpu: 6.23.6, x2, 2401Mhz, 1894MB
+[000:000] Computer model: Not available
+[000:001] [o1d2028-1] Listening for HELLO.
+[000:144] [o1d2028-1] Shutting down instance.
+[000:144] [o1d2028-1] Client disconnected.
+[002:628] [o1d2028-2] Listening for HELLO.
+[002:688] [o1d2028-2] Client connected.
+[002:688] [o1d2028-2] Registered new shared memory segment at 100
+[004:418] [o1d2028-2] Unmapping shared mem: 100
+[004:418] Created new pool buffer at 0x7efddb515000, 3680 bytes
+[004:418] [o1d2028-2] Registered new shared memory segment at 101
+[004:600] [o1d2028-2] Sending rendering size change: 1062x598
+[004:658] [o1d2028-2] Unmapping shared mem: 101
+[004:658] Created new pool buffer at 0x7efddb51f000, 14400 bytes
+[004:659] [o1d2028-2] Registered new shared memory segment at 102
+[006:813] [o1d2028-3] Listening for HELLO.
+[009:209] [o1d2028-3] Client connected.
+[009:209] [o1d2028-3] Registered new shared memory segment at 103
+[009:420] [o1d2028-3] Sending rendering size change: 1062x598
+[009:524] [o1d2028-4] Listening for HELLO.
+[009:620] [o1d2028-4] Client connected.
+[009:620] [o1d2028-4] Registered new shared memory segment at 104
+[009:687] [o1d2028-4] Sending rendering size change: 100x100
+[009:687] [o1d2028-4] Unmapping shared mem: 104
+[009:687] Created new pool buffer at 0x7efddb524000, 14400 bytes
+[009:687] [o1d2028-4] Registered new shared memory segment at 105
+[009:878] [o1d2028-4] Sending rendering size change: 178x100
+[009:921] [o1d2028-4] Unmapping shared mem: 105
+[009:921] Created new pool buffer at 0x7efddb528000, 57600 bytes
+[009:922] [o1d2028-4] Registered new shared memory segment at 106
+[010:072] [o1d2028-4] Unmapping shared mem: 106
+[010:074] [o1d2028-4] Registered new shared memory segment at 107
+[011:441] [o1d2028-4] Unmapping shared mem: 107
+[011:441] Created new pool buffer at 0x7efddb537000, 129600 bytes
+[011:441] [o1d2028-4] Registered new shared memory segment at 108
+[070:692] [o1d2028-4] Unmapping shared mem: 108
+[070:692] Created new pool buffer at 0x7efddb557000, 230400 bytes
+[070:693] [o1d2028-4] Registered new shared memory segment at 109
+[092:896] [o1d2028-4] Sending rendering size change: 100x100
+[092:981] Error(naclhelpers.cc:172): NaClReceiveDatagram failed : Connection reset by peer
+[092:981] Error(flutemessagelistener.cc:316): [o1d2028-3] Failure to receive datagrams.
+[092:981] Error(naclhelpers.cc:172): NaClReceiveDatagram failed : Connection reset by peer
+[092:981] Error(flutemessagelistener.cc:316): [o1d2028-4] Failure to receive datagrams.
+[093:014] [o1d2028-3] Client disconnected.
+[093:015] Created new pool buffer at 0x7efddaa02000, 518400 bytes
+[093:015] Error(naclhelpers.cc:62): NaClSendDatagram failed : Broken pipe
+[093:016] [o1d2028-4] Client disconnected.
+[093:016] Created new pool buffer at 0x7efddaa81000, 518400 bytes
+[093:017] Error(naclhelpers.cc:62): NaClSendDatagram failed : Broken pipe
+[093:855] [o1d2028-3] Shutting down instance.
+[093:855] [o1d2028-3] Client disconnected.
+[093:859] [o1d2028-2] Shutting down instance.
+[093:859] [o1d2028-2] Attached client while shutting down; sending shutdown notification.
+[093:859] [o1d2028-2] Client disconnected.
+[093:865] [o1d2028-4] Shutting down instance.
+[093:867] [o1d2028-4] Client disconnected.
+[100:095] [o1d2028-5] Listening for HELLO.
+[100:188] [o1d2028-5] Shutting down instance.
+[100:188] [o1d2028-5] Client disconnected.
+[100:746] [o1d2028-6] Listening for HELLO.
+[100:776] [o1d2028-6] Client connected.
+[100:776] [o1d2028-6] Registered new shared memory segment at 110
+[102:340] Warning(flutemessagelistener.cc:170): [o1d2028-6] Got a HELLO on an already-connected socket.
+[102:340] [o1d2028-6] Client disconnected.
+[102:340] [o1d2028-6] Client connected.
+[102:340] [o1d2028-6] Registered new shared memory segment at 111
+[102:709] [o1d2028-6] Sending rendering size change: 1062x598
+[102:743] [o1d2028-7] Listening for HELLO.
+[102:808] [o1d2028-7] Client connected.
+[102:809] [o1d2028-7] Registered new shared memory segment at 112
+[102:875] [o1d2028-7] Sending rendering size change: 100x100
+[102:875] [o1d2028-7] Unmapping shared mem: 112
+[102:875] Created new pool buffer at 0x7efddb516000, 14400 bytes
+[102:875] [o1d2028-7] Registered new shared memory segment at 113
+[104:835] [o1d2028-7] Sending rendering size change: 178x100
+[104:869] [o1d2028-7] Unmapping shared mem: 113
+[104:869] Created new pool buffer at 0x7efddb597000, 57600 bytes
+[104:869] [o1d2028-7] Registered new shared memory segment at 114
+[104:935] [o1d2028-7] Unmapping shared mem: 114
+[104:936] [o1d2028-7] Registered new shared memory segment at 115
+[112:903] [o1d2028-7] Unmapping shared mem: 115
+[112:903] Created new pool buffer at 0x7efddb5ab000, 129600 bytes
+[112:904] [o1d2028-7] Registered new shared memory segment at 116
+[123:549] [o1d2028-8] Listening for HELLO.
+[124:437] [o1d2028-8] Client connected.
+[124:437] [o1d2028-8] Registered new shared memory segment at 117
+[140:747] [o1d2028-7] Unmapping shared mem: 116
+[140:747] Created new pool buffer at 0x7efddb51e000, 230400 bytes
+[140:748] [o1d2028-7] Registered new shared memory segment at 118
+[152:111] [o1d2028-8] Sending rendering size change: 100x100
+[152:111] [o1d2028-8] Unmapping shared mem: 117
+[152:111] Created new pool buffer at 0x7efddb5cb000, 14400 bytes
+[152:111] [o1d2028-8] Registered new shared memory segment at 119
+[152:160] [o1d2028-6] Sending rendering size change: 1286x723
+[152:320] [o1d2028-6] Unmapping shared mem: 111
+[152:321] Created new pool buffer at 0x7efddb557000, 230400 bytes
+[152:322] [o1d2028-6] Registered new shared memory segment at 120
+[152:372] [o1d2028-8] Sending rendering size change: 178x100
+[152:454] [o1d2028-8] Unmapping shared mem: 119
+[152:454] Created new pool buffer at 0x7efddb5cf000, 57600 bytes
+[152:454] [o1d2028-8] Registered new shared memory segment at 121
+[152:612] [o1d2028-8] Unmapping shared mem: 121
+[152:612] [o1d2028-8] Registered new shared memory segment at 122
+[1327:863] [o1d2028-7] Sending rendering size change: 100x100
+[1328:067] Error(naclhelpers.cc:172): NaClReceiveDatagram failed : Connection reset by peer
+[1328:068] Error(flutemessagelistener.cc:316): [o1d2028-6] Failure to receive datagrams.
+[1328:068] Error(naclhelpers.cc:172): NaClReceiveDatagram failed : Connection reset by peer
+[1328:068] Error(flutemessagelistener.cc:316): [o1d2028-7] Failure to receive datagrams.
+[1328:068] Error(naclhelpers.cc:172): NaClReceiveDatagram failed : Connection reset by peer
+[1328:068] Error(flutemessagelistener.cc:316): [o1d2028-8] Failure to receive datagrams.
+[1328:101] Error(naclhelpers.cc:62): NaClSendDatagram failed : Broken pipe
+[1328:101] [o1d2028-7] Client disconnected.
+[1328:101] Error(naclhelpers.cc:62): NaClSendDatagram failed : Broken pipe
+[1328:102] Error(naclhelpers.cc:62): NaClSendDatagram failed : Broken pipe
+[1328:562] Error(naclhelpers.cc:62): NaClSendDatagram failed : Broken pipe
+[1328:562] Error(naclhelpers.cc:62): NaClSendDatagram failed : Broken pipe
+[1328:595] [o1d2028-6] Client disconnected.
+[1328:596] Error(naclhelpers.cc:62): NaClSendDatagram failed : Broken pipe
+[1328:597] [o1d2028-8] Client disconnected.
+[1328:597] Created new pool buffer at 0x7efddaa02000, 230400 bytes
+[1328:597] Error(naclhelpers.cc:62): NaClSendDatagram failed : Broken pipe
+[1329:176] [o1d2028-6] Shutting down instance.
+[1329:176] [o1d2028-6] Client disconnected.
+[1329:178] [o1d2028-8] Shutting down instance.
+[1329:178] [o1d2028-8] Client disconnected.
+[1329:179] [o1d2028-7] Shutting down instance.
+[1329:180] [o1d2028-7] Client disconnected.

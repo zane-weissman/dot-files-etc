@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="/css/common/common.css">
+<link rel="stylesheet" type="text/css" href="/css/page-action/popup.css">
+<link rel="stylesheet" type="text/css" href="/css/page-action/status.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700">
+<script src="/module/common/common.bundle.js"></script>
+<script src="/vendor/vendor.bundle.js"></script>
+<script src="/module/page-action/status.bundle.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+<div class="header">
+<span class="close" i18n-title="popupCloseSettings">&times;</span>
+<div class="line">
+<img class="logo" src="/img/page-action/awesome-drive-logo.svg">
+<div class="logo-text">AODocs | AwesomeDrive</div>
+</div>
+</div>
+<div class="body">
+<div class="title" i18n="popupStatus"></div>
+<div class="status">
+<div class="blocking">
+<span class="state-detail"></span>
+</div>
+<div id="createOfficeFile">
+<span class="state-icon"></span>
+<span class="state-name" i18n="popupNewOfficeFile"></span>
+<span class="state-detail"></span>
+</div>
+<div id="openFile">
+<span class="state-icon"></span>
+<span class="state-name" i18n="popupOpenFile"></span>
+<span class="state-quota"><span class="quota-icon"></span><span class="quota-content"></span></span>
+<span class="state-detail"></span>
+</div>
+</div>
+<div class="title"></div>
+<div class="actions">
+<a class="popup-lnk" data-action="reload">
+<img src="/img/page-action/reload.svg" data-ao-hint="popupReload">
+</a>
+<a href="settings.html">
+<img src="/img/page-action/settings.svg" data-ao-hint="popupSettings">
+</a>
+<div class="g-plusone" data-size="medium" data-href="https://chrome.google.com/webstore/detail/aaebjepcfidgkojljbgoilgkgklehldj"></div>
+</div>
+</div>
+<div class="footer">
+<span class="footer-right">
+<a class="install-ufo popup-lnk" data-action="installUfo" data-close i18n="popupInstallUfo"></a> |
+<a class="welcome-tour popup-lnk" data-action="openAwesomeDriveTour" data-close i18n="popupWelcomeTour"></a> |
+<a href="https://plus.google.com/communities/115205398759066781480" target="_blank" i18n="popupGetHelp"></a>
+</span>
+</div>
+</body>
+</html>

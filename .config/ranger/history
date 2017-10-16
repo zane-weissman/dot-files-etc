@@ -1,0 +1,12 @@
+find .config
+thunar .
+shell thunar %f
+find gff
+open_with 
+touch final_outline.txt
+e final_outline.txt
+vim final_outline.txt
+
+r vim
+open_with vim
+find E

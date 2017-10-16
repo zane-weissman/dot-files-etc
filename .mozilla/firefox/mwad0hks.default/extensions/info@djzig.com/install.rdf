@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>info@djzig.com</em:id>
+    <em:version>2.5.4</em:version>
+
+    <!-- Target Application this extension can install into,
+         with minimum and maximum supported versions. -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>4.0</em:minVersion>
+        <em:maxVersion>56.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+   
+    <!-- Front End MetaData -->
+    <em:name>LavaFox V2</em:name>
+    <em:type>4</em:type>
+    <em:description>Version 2 of LavaFox</em:description>
+    <em:creator>Zigboom</em:creator>
+    <em:contributor>Nick C. - Code help and motivation</em:contributor>
+    <em:contributor>frankell - Testing and inspiration</em:contributor>
+    <em:contributor>stakadush - OSX Testing</em:contributor>
+    <em:contributor>sparkythewondersquid - Linux Testing</em:contributor>
+    <em:contributor>Aronnax! - Code help and motivation</em:contributor>
+    <em:contributor>Paenglab - Win7 Testing Code help and motivation</em:contributor>
+    <em:homepageURL>http://zigboom.com/</em:homepageURL>
+    <em:unpack>true</em:unpack>
+
+    <!-- Front End Integration Hooks (used by Theme Manager)-->
+    <em:internalName>LavaFox_V1</em:internalName>
+    <em:multiprocessCompatible>true</em:multiprocessCompatible>
+
+  </Description>     
+
+</RDF> 

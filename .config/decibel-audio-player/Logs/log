@@ -1,0 +1,40 @@
+INFO   Started
+INFO   Module loaded: GSTPlayer
+INFO   Module loaded: Explorer
+INFO   Module loaded: StatusbarTitlebar
+INFO   Module loaded: CtrlPanel
+INFO   Module loaded: FileExplorer
+INFO   Module loaded: GnomeMediaKeys
+INFO   Module loaded: CommandLine
+INFO   Module loaded: Tracklist
+INFO   Module loaded: TrackPanel
+INFO   Module loaded: DBus
+ERROR  [Command Line Support] Unable to restore playlist from /home/zane/.config/decibel-audio-player/saved-playlist-2.txt
+
+Traceback (most recent call last):
+  File "/usr/share/decibel-audio-player/src/modules/CommandLine.py", line 52, in onAppStarted
+    tracks = [media.track.unserialize(serialTrack) for serialTrack in pickleLoad(self.savedPlaylist)]
+  File "/usr/share/decibel-audio-player/src/tools/__init__.py", line 132, in pickleLoad
+    input = open(file, 'r')
+IOError: [Errno 2] No such file or directory: '/home/zane/.config/decibel-audio-player/saved-playlist-2.txt'
+
+ERROR  [Gnome Media Keys] Error while initializing
+
+Traceback (most recent call last):
+  File "/usr/share/decibel-audio-player/src/modules/GnomeMediaKeys.py", line 65, in onAppStarted
+    service = dbus.SessionBus().get_object('org.gnome.SettingsDaemon', '/org/gnome/SettingsDaemon')
+  File "/usr/lib/python2.7/dist-packages/dbus/bus.py", line 241, in get_object
+    follow_name_owner_changes=follow_name_owner_changes)
+  File "/usr/lib/python2.7/dist-packages/dbus/proxies.py", line 248, in __init__
+    self._named_service = conn.activate_name_owner(bus_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/bus.py", line 180, in activate_name_owner
+    self.start_service_by_name(bus_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/bus.py", line 278, in start_service_by_name
+    'su', (bus_name, flags)))
+  File "/usr/lib/python2.7/dist-packages/dbus/connection.py", line 651, in call_blocking
+    message, timeout)
+DBusException: org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SettingsDaemon was not provided by any .service files
+
+INFO   Module loaded: Covers
+INFO   Module loaded: ReplayGain
+INFO   Stopped

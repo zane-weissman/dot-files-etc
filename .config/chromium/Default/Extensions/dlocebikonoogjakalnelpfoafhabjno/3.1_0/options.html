@@ -1,0 +1,114 @@
+<html>
+<head>
+	<title>EdClub Portal Selection</title>
+	<script src="jquery.js"></script>
+	<script src="options.js"></script>
+    <link type="text/css" href="base.css" rel="stylesheet" media="screen" />
+    <link type="text/css" href="animate.css" rel="stylesheet" media="screen" />
+</head>
+<body>
+
+<div id="header-text">
+	<h1><span style="font-family:arial black;">EdClub</span> <span class="setup">Setup</span></h1>
+	<div class="text">This is a one-time setup to configure your extension to take you to your school's EdClub login page.</div>
+</div>
+
+<div class="qholder" id="step1">
+	<div class="stepheader">
+		<div class="step">Step 1.</div>
+		<h2 style="font-size:1.8em;">Do you know your school code?</h2>
+	</div>
+	<div class="helptext">If you don't know your school code, we can help you find it.</div>
+	<div class="options">
+		<a class="option goto" data-where="step2_2">
+			<div class="bigtext">Not sure</div>
+			<div class="subtext">Help me find it.</div>
+		</a>
+		<a class="option goto" data-where="step2_1">
+			<div class="bigtext">Yes, I do</div>
+			<div class="subtext">Click here to enter it.</div>
+		</a>
+	</div>
+</div>
+
+<div style="display:none;" class='templates'>
+	<svg width="24" height="24" class="rightarr"><path stroke-width="1" fill="#54779f" stroke="#54779f" d="M0,0L0,24L12,12z"/></svg>
+</div>
+
+<div class="qholder" id="step2_1">
+	<div class="stepheader">
+		<div class="step">
+			<a class="goto backlink" data-where="step1" data-dir="back">
+				<svg width="24" height="24"><path stroke-width="1" fill="#54779f" stroke="#54779f" d="M12,0L0,12L12,24z"/></svg>
+			</a>
+			Step 2.
+		</div>
+		<h2>Enter your school code:</h2>
+	</div>
+
+	<div class="helptext">If you don't know your school code, <a class="link goto" data-where="step2_2" data-dir="back">we can help you find it</a>.</div>
+
+	<input type="text" id="q_domain" placeholder="school-code" class="focusme" autocomplete="off" />
+	<div style="position:absolute;margin:18px 0 0 10px;display:inline-block;">
+		<a class="btn search_portal_domain">Search</a>
+	</div>
+
+	<div id="res_school_code"></div>
+</div>
+
+
+<div class="qholder" id="step2_2">
+	<div class="stepheader">
+		<div class="step">
+			<a class="goto backlink" data-where="step1" data-dir="back">
+				<svg width="24" height="24"><path stroke-width="1" fill="#54779f" stroke="#54779f" d="M12,0L0,12L12,24z"/></svg>
+			</a>
+			Step 2.
+		</div>
+		<h2>Lets find your school</h2>
+	</div>
+	<div class="helptext">Please enter either your email address or the name of<br /> your school or district:</div>
+	<input type="text" id="q" placeholder="me@school-email.com or School-name" class="focusme" autocomplete="off" />
+	<div style="position:absolute;margin:18px 0 0 10px;display:inline-block;">
+		<a class="btn search_account">Search</a>
+	</div>
+
+	<div id="res"></div>
+
+</div>
+
+
+<div class="qholder" id="step1_guess">
+	<div class="stepheader">
+		<div class="step">
+			Step 1.
+		</div>
+		<h2 class="caption" style='font-size:1.8em;'></h2>
+	</div>
+	<div class="helptext">If you don't find your school or district on the list, <a class="link goto" data-where="step1">click here.</a></div>
+
+	<div id="res_guess"></div>
+	<div style="text-align:center;margin-top:10px;">
+		<a class="link goto" data-where="step1">Click here if your school is not in the list</a>
+	</div>
+
+</div>
+
+
+<div class="qholder" id="step_success">
+	<div class="stepheader">
+		<h2>All done!</h2>
+	</div>
+	<div class="helptext">Your chrome extension is now configured to take you to the following portal URL every time. <a class="link goto" data-where="step1">Click here to change this configuration.</a></div>
+
+	<div class="final_url">
+		http://<span></span>.edclub.com
+	</div>
+
+	<div style="text-align:center;-webkit-transform:scale(1.3);margin-top:30px;">
+		<a class="btn goto_portal">Continue to your portal &raquo;</a>
+	</div>
+
+</div>
+
+

@@ -1,0 +1,6 @@
+(function(){
+(function(b){function d(e){if(c[e])return c[e].exports;var f=c[e]={exports:{},id:e,loaded:!1};b[e].call(f.exports,f,f.exports,d);f.loaded=!0;return f.exports}var c={};d.m=b;d.c=c;d.p="";return d(0)})({0:function(b,d,c){b=document.currentScript&&document.currentScript.dataset?document.currentScript.dataset.id:"";null!=document.querySelector("#drive_main_page")&&c(68).retrieveUser(b)},68:function(b,d){function c(){var a={path:"https://www.googleapis.com/oauth2/v2/userinfo"},c={Authorization:gapi.auth.getAuthHeaderValueForFirstParty()},
+b=document.location.pathname.match(/\/u\/(\d+)\//);b&&b[1]&&(c["X-Goog-AuthUser"]=b[1]);a.headers=c;return a}function e(a){g({email:a.result.email})}function f(a){g({warn:{message:"Failed to retrieve userInfo from gapi, fallback to DOM extraction",details:a}});h()}function h(){try{g({email:document.querySelector('#gb a[href*="/privacy"]').parentNode.previousSibling.firstChild.nodeValue})}catch(a){k(a)}}function k(a){g({error:{type:a.name,details:a.message}})}function g(a){window.postMessage({extension:l,
+from:"userRetriever",message:a},"*")}var l;b.exports={retrieveUser:function(a){l=a;try{"undefined"!=typeof window.gapi&&window.gapi.client&&window.gapi.client.request?window.gapi.client.request(c()).then(e,f):h()}catch(m){k(m)}}}}});
+}).call(this)
+

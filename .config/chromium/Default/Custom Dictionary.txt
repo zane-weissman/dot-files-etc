@@ -1,0 +1,2 @@
+humidities
+checksum_v1 = 50db661a4425162b2823ea4fa91cf8d6

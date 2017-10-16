@@ -1,0 +1,7 @@
+[Data]
+Name=FlatBird
+Thumbnail=/home/zane/.config/XfceThemeManager/meta/FlatBird.png
+GtkTheme=FlatBird
+Xfwm4Theme=FlatBird
+CursorTheme=DMZ-Black
+

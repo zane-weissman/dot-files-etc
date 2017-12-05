@@ -1,0 +1,12 @@
+bg = "#282828"
+bg0_h = '#1d2012'
+bg1 = '#3c3836'
+bg2 = '#504945'
+fg = '#fbf1c7'
+red = '#cc241d'
+green = '#98971a'
+green_l = '#b8bb26'
+yellow = '#d79921'
+blue = '#458588'
+purple = '#b16286'
+aqua = '#689d6a'

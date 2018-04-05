@@ -1,0 +1,27 @@
+{
+    "alpha": "100",
+    "colors": {
+        "color12": "#A07B75",
+        "color1": "#4A5A6C",
+        "color9": "#4A5A6C",
+        "color15": "#b5b7bb",
+        "color2": "#566779",
+        "color11": "#666E7A",
+        "color6": "#6A7685",
+        "color10": "#566779",
+        "color5": "#5A6E82",
+        "color13": "#5A6E82",
+        "color7": "#b5b7bb",
+        "color3": "#666E7A",
+        "color4": "#A07B75",
+        "color0": "#151a1f",
+        "color8": "#7e8082",
+        "color14": "#6A7685"
+    },
+    "wallpaper": "/home/zane/wallpapers/3342551513_4dd9363dbe_o.jpg",
+    "special": {
+        "foreground": "#b5b7bb",
+        "background": "#151a1f",
+        "cursor": "#b5b7bb"
+    }
+}

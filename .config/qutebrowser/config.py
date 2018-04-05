@@ -108,8 +108,8 @@ c.colors.statusbar.insert.fg = gruvbox.bg
 c.colors.statusbar.normal.bg = gruvbox.bg
 c.colors.statusbar.normal.fg = gruvbox.fg
 
-c.colors.statusbar.passthrough.fg = gruvbox.green_l
-c.colors.statusbar.passthrough.fg = gruvbox.bg
+#c.colors.statusbar.passthrough.fg = gruvbox.green_l
+#c.colors.statusbar.passthrough.fg = gruvbox.bg
 
 c.colors.statusbar.private.bg = gruvbox.purple
 c.colors.statusbar.private.fg = gruvbox.bg
@@ -123,3 +123,49 @@ c.colors.statusbar.url.success.http.fg = gruvbox.fg
 c.colors.statusbar.url.success.https.fg = gruvbox.fg
 c.colors.statusbar.url.warn.fg = gruvbox.yellow
 
+c.fonts.completion.category = "bold 10pt monospace"
+c.fonts.completion.entry = "10pt monospace"
+c.fonts.debug_console = "10pt monospace"
+c.fonts.downloads = "10pt monospace"
+c.fonts.hints = "bold 12pt monospace"
+c.fonts.keyhint = "10pt monospace"
+c.fonts.messages.error = "10pt monospace"
+c.fonts.messages.info = "10pt monospace"
+c.fonts.messages.warning =  "10pt monospace"
+c.fonts.prompts =  "10pt monospace"
+c.fonts.statusbar =  "10pt monospace"
+
+## Definitions of search engines which can be used via the address bar.
+## Maps a searchengine name (such as `DEFAULT`, or `ddg`) to a URL with a
+## `{}` placeholder. The placeholder will be replaced by the search term,
+## use `{{` and `}}` for literal `{`/`}` signs. The searchengine named
+## `DEFAULT` is used when `url.auto_search` is turned on and something
+## else than a URL was entered to be opened. Other search engines can be
+## used by prepending the search engine name to the search term, e.g.
+## `:open google qutebrowser`.
+## Type: Dict
+c.url.searchengines = {
+        'DEFAULT': 'https://encrypted.google.com/search?q={}',
+        'i': 'https://www.google.com/search?tbm=isch&q={}',
+        'yt': 'https://www.youtube.com/results?search_query={}',
+
+        'r': 'https://reddit.com/r/{}',
+        '4': 'https://boards.4chan.org/{}/catalog',
+        '8': 'https://8ch.net/{}/catalog.html',
+        'tw': 'https://twitter.com/{}',
+
+        'w': 'https://www.wikipedia.org/search-redirect.php?family=wikipedia&language=en&search={}&language=en&go=Go',
+        'wt': 'http://en.wiktionary.org/?search={}',
+        'etym': 'http://etymonline.com/index.php?allowed_in_frame=0&search={}',
+
+        'tpb': 'http://thepiratebay.org/search/{}',
+        'sk': 'https://www.skytorrents.in/search/all/ed/1/?l=en-us&q={}',
+
+        'eb': 'https://ebay.com/sch/{}',
+        'az': 'https://amazon.com/s/ref=nb_sb_noss_2?url=search-alias-%3Daps&field-keywords={}',
+
+        'aw': 'https://wiki.archlinux.org/index.php?title=Special%3ASearch&search={}',
+        'gw': 'https://wiki.gentoo.org/index.php?title=Special%3ASearch&search={}',
+        'ig': 'https://wiki.installgentoo.com/index.php?search={}&title=Special%3ASearch',
+        'vw': 'http://vim.wikia.com/wiki/Special:Search?fulltext=Search&query={}',
+}

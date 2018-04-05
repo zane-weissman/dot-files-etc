@@ -3,4 +3,4 @@
 
 config_version: 1
 global:
-  tabs.last_close: close
+  content.plugins: true

@@ -1,0 +1,3 @@
+HDA Intel PCH
+HDA NVidia
+Audioengine 2+
